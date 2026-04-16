@@ -13,55 +13,69 @@ Change one token to update all instances across the entire site instantly.
 }
 
 .color-card {
-  border: 1px solid rgba(222, 233, 250, 0.2);
-  border-radius: 8px;
+  border: 2px solid rgba(222, 233, 250, 0.3);
+  border-radius: 12px;
   overflow: hidden;
-  background: rgba(42, 49, 71, 0.5);
-  transition: transform 0.2s, box-shadow 0.2s;
+  background: linear-gradient(135deg, rgba(28, 32, 52, 0.9) 0%, rgba(42, 49, 71, 0.9) 100%);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
 
 .color-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(64, 255, 67, 0.15);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(64, 255, 67, 0.2);
+  border-color: rgba(64, 255, 67, 0.4);
 }
 
 .color-swatch {
   width: 100%;
   height: 120px;
-  border-bottom: 1px solid rgba(222, 233, 250, 0.2);
+  border-bottom: 2px solid rgba(222, 233, 250, 0.2);
 }
 
 .color-info {
-  padding: 16px;
+  padding: 18px;
+  background: rgba(21, 22, 36, 0.7);
 }
 
 .color-name {
-  font-weight: 600;
+  font-weight: 700;
   color: rgb(225, 230, 247);
   margin-bottom: 8px;
-  font-size: 14px;
+  font-size: 15px;
+  letter-spacing: 0.3px;
 }
 
 .color-value {
   font-family: 'Monaco', 'Menlo', monospace;
-  font-size: 12px;
-  color: rgb(129, 137, 163);
+  font-size: 13px;
+  color: rgb(180, 190, 220);
   margin-bottom: 12px;
   word-break: break-all;
+  background: rgba(18, 20, 32, 0.5);
+  padding: 6px 8px;
+  border-radius: 4px;
+  display: inline-block;
 }
 
 .color-usage {
-  font-size: 12px;
-  color: rgb(129, 137, 163);
-  line-height: 1.5;
+  font-size: 13px;
+  color: rgb(180, 190, 220);
+  line-height: 1.6;
+  margin-top: 10px;
 }
 
 .color-token-path {
   font-family: 'Monaco', 'Menlo', monospace;
-  font-size: 11px;
+  font-size: 12px;
   color: rgb(64, 255, 67);
-  margin-top: 8px;
-  opacity: 0.7;
+  margin-top: 10px;
+  opacity: 0.85;
+  display: block;
+  background: rgba(64, 255, 67, 0.08);
+  padding: 6px 8px;
+  border-radius: 4px;
+  border-left: 2px solid rgb(64, 255, 67);
 }
 </style>
 
