@@ -1,6 +1,6 @@
-# Welcome to SYNTHEX
-
 ![synthex-social](/images/guide/synthex-social-image.png)
+
+# Welcome to SYNTHEX
 
 Thank you for choosing **SYNTHEX** — a premium Framer template for AI automation agencies. This documentation will guide you through setup, customization, and publishing.
 
@@ -10,7 +10,7 @@ SYNTHEX is built around a **retro-futurist terminal aesthetic** — dark backgro
 
 - **12 fully designed pages**
 - **7 CMS collections**  
-- **43 Framer components** + **3 code components**
+- **3 custom components**
 - **Custom design system** with 23 color tokens
 
 ## What You'll Learn
