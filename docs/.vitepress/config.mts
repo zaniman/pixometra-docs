@@ -12,10 +12,10 @@ export default defineConfig({
       .VPNav {
         border-bottom: none !important;
       }
-      .VPContent {
+      .VPHome {
         padding-top: 0 !important;
       }
-      .VPHome {
+      .VPDoc {
         padding-top: 48px !important;
       }
     `]
@@ -35,7 +35,7 @@ export default defineConfig({
           text: '📚 Introduction',
           items: [
             { text: 'Welcome', link: '/synthex/welcome' },
-            { text: 'What You Get', link: '/synthex/what-you-get' },
+            { text: 'What You Get', link: '/synthex/guide/what-you-get' },
           ]
         },
         {
