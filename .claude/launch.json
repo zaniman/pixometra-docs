@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "synthex-docs (Ruby)",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/zaniman/Documents/work/Framer-Templates/Templates/Synthex/Instruction/synthex-docs/serve.py"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}

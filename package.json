@@ -1,0 +1,21 @@
+{
+  "name": "pixometra-docs",
+  "version": "1.0.0",
+  "description": "Documentation for Pixometra Framer templates",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "framer",
+    "templates",
+    "pixometra",
+    "documentation"
+  ],
+  "author": "Pixometra",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

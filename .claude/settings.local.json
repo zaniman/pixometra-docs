@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//opt/homebrew/**)",
+      "Read(//Users/zaniman/.pyenv/**)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(pkill -f \"http.server 3000\")",
+      "Bash(nohup python3:*)",
+      "Bash(curl -s -I http://localhost:3000/)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:5176/)",
+      "Read(//tmp/**)",
+      "Bash(mkdir -p synthex/guide)",
+      "Bash(mkdir -p synthex/design)",
+      "Bash(mkdir -p synthex/components)",
+      "Bash(cp -r guide/* synthex/guide/)",
+      "Bash(cp -r design/* synthex/design/)",
+      "mcp__Control_Chrome__open_url",
+      "mcp__Control_Chrome__get_current_tab",
+      "mcp__Control_Chrome__get_page_content",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
