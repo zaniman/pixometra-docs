@@ -6,6 +6,8 @@ Thank you for choosing **SYNTHEX** — a premium Framer template for AI automati
 
 ## What is SYNTHEX?
 
+![synthex-social](/images/guide/synthex-social-image.png)
+
 SYNTHEX is built around a **retro-futurist terminal aesthetic** — dark backgrounds, neon accents, CRT effects, and monospace typography. It ships with:
 
 - **12 fully designed pages**
