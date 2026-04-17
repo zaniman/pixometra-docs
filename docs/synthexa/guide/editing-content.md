@@ -126,6 +126,8 @@ If you want to remove the theme toggle from the navigation bar and let the theme
 4. In the right sidebar, locate **Theme Switcher** setting
 5. Set it to **Off**
 
+![Theme Switcher Setting](/images/guide/synthexa-02.png)
+
 The theme will now automatically switch based on the user's operating system preferences (Light or Dark mode).
 
 :::info
