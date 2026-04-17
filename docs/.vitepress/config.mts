@@ -50,9 +50,11 @@ export default defineConfig({
         color: #33cc34 !important;
       }
       /* Sidebar links for synthexa */
-      .VPSidebar a,
-      .VPNav a {
-        color: inherit;
+      .VPSidebar a {
+        color: #40ff43 !important;
+      }
+      .VPSidebar a:hover {
+        color: #33cc34 !important;
       }
       /* Content area links */
       .vp-doc a code {
