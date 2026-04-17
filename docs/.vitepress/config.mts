@@ -120,7 +120,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Made with ❤️ by Pixometra',
+      message: 'Made by Pixometra',
       copyright: 'Copyright © 2026 Pixometra'
     },
 
