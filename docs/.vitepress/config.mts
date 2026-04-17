@@ -18,6 +18,12 @@ export default defineConfig({
       .VPDoc {
         padding-top: 48px !important;
       }
+      img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        display: block;
+      }
     `]
   ],
 
