@@ -70,6 +70,13 @@ export default defineConfig({
       table a:hover {
         color: #33cc34 !important;
       }
+
+      /* 2x retina images - display at logical size */
+      img[src*="synthexa-0"] {
+        width: 300px !important;
+        height: auto !important;
+        max-width: 100% !important;
+      }
     `]
   ],
 
