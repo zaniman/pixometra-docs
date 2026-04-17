@@ -39,6 +39,15 @@ export default defineConfig({
         max-width: 100% !important;
         height: auto !important;
       }
+      /* Override VitePress CSS variables */
+      :root {
+        --vp-c-brand: #40ff43 !important;
+        --vp-c-brand-light: #40ff43 !important;
+        --vp-c-brand-lighter: #40ff43 !important;
+        --vp-c-brand-dark: #33cc34 !important;
+        --vp-c-brand-darker: #33cc34 !important;
+      }
+
       /* Global brand color for all links */
       a {
         color: #40ff43 !important;
@@ -48,6 +57,14 @@ export default defineConfig({
       }
       a:visited {
         color: #40ff43 !important;
+      }
+
+      /* Table links */
+      table a {
+        color: #40ff43 !important;
+      }
+      table a:hover {
+        color: #33cc34 !important;
       }
     `]
   ],
