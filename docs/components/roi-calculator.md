@@ -177,6 +177,6 @@ automationCost / ((teamSize * hoursPerWeek * hourlyRate * 4) / 12)
 
 ## Next Steps
 
-→ [404 Game](/synthex/components/404-game)
+→ [404 Game](/synthexa/components/404-game)
 
-→ [Terminal Image](/synthex/components/terminal-image)
+→ [Terminal Image](/synthexa/components/terminal-image)

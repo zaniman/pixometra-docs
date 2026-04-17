@@ -238,6 +238,6 @@ Edit footer navigation:
 
 You now have a complete understanding of all SYNTHEXA components!
 
-Review the [Colors](/synthex/design/colors) and [Typography](/synthex/design/typography) sections to finalize your design system, then:
+Review the [Colors](/synthexa/design/colors) and [Typography](/synthexa/design/typography) sections to finalize your design system, then:
 
-→ [Publish Your Site](/synthex/guide/publish)
+→ [Publish Your Site](/synthexa/guide/publish)

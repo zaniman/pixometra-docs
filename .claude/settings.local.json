@@ -39,7 +39,12 @@
       "Bash(find . -type f -name \"*.md\" -exec sed -i '' 's/SYNTHEX/SYNTHEXA/g' {} \\\\;)",
       "Bash(find . -type f -name \"*.md\" -exec sed -i '' 's/SYNTHEXAA/SYNTHEXA/g' {} \\\\;)",
       "Bash(find /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/docs/synthexa -type f -name \"*.md\" -exec sed -i '' 's|/synthex/|/synthexa/|g' {} \\\\;)",
-      "Bash(xargs sed:*)"
+      "Bash(xargs sed:*)",
+      "Bash(mv synthex-social-image.png synthexa-social-image.png)",
+      "Bash(mv synthex-01.png synthexa-01.png)",
+      "Bash(mv synthex-02.png synthexa-02.png)",
+      "Bash(sed -i '' 's/synthex-01.png/synthexa-01.png/g' /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/docs/synthexa/guide/editing-content.md)",
+      "Bash(sed -i '' 's/synthex-02.png/synthexa-02.png/g' /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/docs/synthexa/guide/editing-content.md)"
     ]
   }
 }

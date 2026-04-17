@@ -96,7 +96,7 @@ SYNTHEXA includes **Light and Dark color schemes** that users can toggle on your
 
 Your site visitors can toggle between Light and Dark modes using the **theme toggle button** in the navigation bar.
 
-![Theme Toggle Button](/images/guide/synthex-01.png)
+![Theme Toggle Button](/images/guide/synthexa-01.png)
 
 Simply click the toggle icon to switch between modes. The preference is saved in their browser, so they'll see their chosen theme each time they visit.
 
