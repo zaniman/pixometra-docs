@@ -1,6 +1,6 @@
 # Framer Basics
 
-Key areas of the Framer editor you'll use to customize SYNTHEX.
+Key areas of the Framer editor you'll use to customize SYNTHEXA.
 
 ## 🎨 Canvas
 
@@ -84,4 +84,4 @@ Drag a component onto the canvas to insert it.
 
 Now that you understand the Framer editor, let's explore the pages:
 
-→ [Pages Overview](/synthex/guide/pages-overview)
+→ [Pages Overview](/synthexa/guide/pages-overview)

@@ -21,7 +21,7 @@ A complete, **production-ready Framer project** you can duplicate, edit, and pub
 
 ## 🗂️ CMS Collections
 
-SYNTHEX includes **7 fully configured CMS collections** with sample data:
+SYNTHEXA includes **7 fully configured CMS collections** with sample data:
 
 ### Dynamic Collections
 - **Blog** (9 articles) — Articles with authors, categories, read time
@@ -62,7 +62,7 @@ SYNTHEX includes **7 fully configured CMS collections** with sample data:
 
 ## 🎨 Design System
 
-SYNTHEX comes with a complete design system:
+SYNTHEXA comes with a complete design system:
 
 - **23 color tokens** organized in groups (Terminal, Brand, Background, Text)
 - **15 text styles** from display headings to mono labels
@@ -71,4 +71,4 @@ SYNTHEX comes with a complete design system:
 
 ## Next Steps
 
-Ready to start building? Let's [Duplicate the Template →](/synthex/guide/duplicate)
+Ready to start building? Let's [Duplicate the Template →](/synthexa/guide/duplicate)

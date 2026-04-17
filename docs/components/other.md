@@ -1,6 +1,6 @@
 # Other Components
 
-SYNTHEX includes several additional design components beyond Terminal Dashboard, ROI Calculator, and Terminal Image.
+SYNTHEXA includes several additional design components beyond Terminal Dashboard, ROI Calculator, and Terminal Image.
 
 ## Number Flow
 
@@ -236,7 +236,7 @@ Edit footer navigation:
 
 ## Next Steps
 
-You now have a complete understanding of all SYNTHEX components!
+You now have a complete understanding of all SYNTHEXA components!
 
 Review the [Colors](/synthex/design/colors) and [Typography](/synthex/design/typography) sections to finalize your design system, then:
 

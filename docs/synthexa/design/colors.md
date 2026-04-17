@@ -1,6 +1,6 @@
 # Color Tokens
 
-SYNTHEX uses a structured color token system with three groups: **Terminal** (retro aesthetic), **Brand** (global identity), and **Background/Text** (layout foundations).
+SYNTHEXA uses a structured color token system with three groups: **Terminal** (retro aesthetic), **Brand** (global identity), and **Background/Text** (layout foundations).
 
 Change one token to update all instances across the entire site instantly.
 
@@ -279,4 +279,4 @@ Test your color changes on both light and dark modes before publishing.
 
 ## Next Steps
 
-→ [Typography](/synthex/design/typography)
+→ [Typography](/synthexa/design/typography)

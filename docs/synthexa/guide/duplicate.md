@@ -1,10 +1,10 @@
 # Duplicate the Template
 
-Follow these steps to copy SYNTHEX to your Framer workspace.
+Follow these steps to copy SYNTHEXA to your Framer workspace.
 
 ## Step 1: Open the Template in Framer Marketplace
 
-Visit the SYNTHEX template page and you'll see the preview and a **Copy** button below it.
+Visit the SYNTHEXA template page and you'll see the preview and a **Copy** button below it.
 
 ## Step 2: Click "Copy"
 
@@ -37,4 +37,4 @@ All changes are independent from the original template. Your copy won't be affec
 
 Once duplicated, you'll work entirely in Framer's editor. Read the next section to learn Framer basics:
 
-→ [Framer Basics](/synthex/guide/framer-basics)
+→ [Framer Basics](/synthexa/guide/framer-basics)

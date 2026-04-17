@@ -58,7 +58,7 @@ Once propagated, visit your domain:
 https://myagency.com
 ```
 
-Your SYNTHEX site is now live on your custom domain.
+Your SYNTHEXA site is now live on your custom domain.
 
 ## SSL Certificate
 
@@ -92,4 +92,4 @@ Framer **automatically** provisions a free SSL certificate via Let's Encrypt.
 
 ## Next Steps
 
-→ [SEO Settings](/synthex/guide/seo)
+→ [SEO Settings](/synthexa/guide/seo)

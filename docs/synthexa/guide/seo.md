@@ -1,6 +1,6 @@
 # SEO Settings
 
-Optimize your SYNTHEX site for search engines.
+Optimize your SYNTHEXA site for search engines.
 
 ## Site-Level SEO
 
@@ -124,7 +124,7 @@ For advanced SEO (optional):
 - **Keywords naturally** — Include relevant keywords naturally, not forced
 - **Fresh content** — Add new blog posts regularly (1–2 per month)
 - **Internal links** — Link between related pages and blog posts
-- **Mobile-first** — SYNTHEX is mobile-responsive; test on mobile
+- **Mobile-first** — SYNTHEXA is mobile-responsive; test on mobile
 - **Fast loading** — Compress images and use WebP format
 - **Security** — Always use HTTPS (Framer provides this automatically)
 
@@ -168,4 +168,4 @@ Once your site is live with proper SEO:
 - **Build backlinks** — Share your content to attract incoming links
 - **Track analytics** — See what content resonates with visitors
 
-Your SYNTHEX site is now fully optimized for search engines! 🚀
+Your SYNTHEXA site is now fully optimized for search engines! 🚀

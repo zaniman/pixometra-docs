@@ -35,7 +35,11 @@
       "Bash(grep -E \"\\\\.md$\")",
       "mcp__Claude_in_Chrome__tabs_context_mcp",
       "mcp__Claude_in_Chrome__navigate",
-      "mcp__Claude_in_Chrome__computer"
+      "mcp__Claude_in_Chrome__computer",
+      "Bash(find . -type f -name \"*.md\" -exec sed -i '' 's/SYNTHEX/SYNTHEXA/g' {} \\\\;)",
+      "Bash(find . -type f -name \"*.md\" -exec sed -i '' 's/SYNTHEXAA/SYNTHEXA/g' {} \\\\;)",
+      "Bash(find /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs/docs/synthexa -type f -name \"*.md\" -exec sed -i '' 's|/synthex/|/synthexa/|g' {} \\\\;)",
+      "Bash(xargs sed:*)"
     ]
   }
 }

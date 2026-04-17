@@ -1,6 +1,6 @@
 # CMS Collections Overview
 
-SYNTHEX uses **Framer CMS** to power all dynamic content. Adding an item to a CMS collection automatically creates its corresponding page.
+SYNTHEXA uses **Framer CMS** to power all dynamic content. Adding an item to a CMS collection automatically creates its corresponding page.
 
 ## 7 Collections
 
@@ -54,9 +54,9 @@ The new item is now live (on next publish).
 
 Learn details about each collection:
 
-- [Blog Collection](/synthex/guide/cms-blog)
-- [Cases Collection](/synthex/guide/cms-cases)
-- [Career Collection](/synthex/guide/cms-career)
-- [Legal Collection](/synthex/guide/cms-legal)
-- [Pricing Collection](/synthex/guide/cms-pricing)
-- [How to Edit CMS Content](/synthex/guide/cms-edit)
+- [Blog Collection](/synthexa/guide/cms-blog)
+- [Cases Collection](/synthexa/guide/cms-cases)
+- [Career Collection](/synthexa/guide/cms-career)
+- [Legal Collection](/synthexa/guide/cms-legal)
+- [Pricing Collection](/synthexa/guide/cms-pricing)
+- [How to Edit CMS Content](/synthexa/guide/cms-edit)

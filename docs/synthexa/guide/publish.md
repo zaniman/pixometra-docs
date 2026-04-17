@@ -1,6 +1,6 @@
 # Publish Your Site
 
-Get your SYNTHEX site live in three simple steps.
+Get your SYNTHEXA site live in three simple steps.
 
 ## Before You Publish
 
@@ -22,7 +22,7 @@ Make sure to review and prepare:
 
 ### ✅ Legal & Settings
 
-- [ ] Replace `legal@synthex.com` with your contact email in legal documents
+- [ ] Replace `legal@synthexa.com` with your contact email in legal documents
 - [ ] Update privacy policy and terms of service
 - [ ] Add your real company details in footer
 
@@ -81,6 +81,6 @@ Publishing takes 30–60 seconds. Refresh the URL after publishing to see your l
 
 ## Next Steps
 
-→ [Connect a Custom Domain](/synthex/guide/domain)
+→ [Connect a Custom Domain](/synthexa/guide/domain)
 
-→ [SEO Settings](/synthex/guide/seo)
+→ [SEO Settings](/synthexa/guide/seo)

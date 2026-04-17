@@ -49,4 +49,4 @@ Once saved, a new case study page is created at `/cases/:slug` with:
 
 ## Next Steps
 
-→ [Career Collection](/synthex/guide/cms-career)
+→ [Career Collection](/synthexa/guide/cms-career)

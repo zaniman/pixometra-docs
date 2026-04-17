@@ -1,6 +1,6 @@
 # Typography
 
-SYNTHEX uses two carefully chosen font families to balance readability and retro-futurism.
+SYNTHEXA uses two carefully chosen font families to balance readability and retro-futurism.
 
 ## Font Families
 
@@ -37,7 +37,7 @@ SYNTHEX uses two carefully chosen font families to balance readability and retro
 
 ## Text Style Scale
 
-All text in SYNTHEX is managed via **Text Styles**. Never edit individual element typography — always update the global style.
+All text in SYNTHEXA is managed via **Text Styles**. Never edit individual element typography — always update the global style.
 
 ### Headings
 
@@ -122,7 +122,7 @@ Result: All H1 headings grow in size site-wide.
 
 ## Line Heights & Readability
 
-SYNTHEX uses these line height rules:
+SYNTHEXA uses these line height rules:
 
 - **Headings:** 1.2 (tight, impactful)
 - **Body text:** 1.6–1.7 (generous, readable)
@@ -141,7 +141,7 @@ Fonts are optimized for web and load quickly.
 
 ## Mobile Typography
 
-On mobile, SYNTHEX automatically scales:
+On mobile, SYNTHEXA automatically scales:
 
 - **Headings** — Slightly smaller to fit screens
 - **Body text** — Full size (already 14–16px)
@@ -178,4 +178,4 @@ To add a new text style (if needed):
 
 Your design system is now fully customized! Time to explore the components:
 
-→ [Terminal Dashboard Component](/synthex/components/terminal)
+→ [Terminal Dashboard Component](/synthexa/components/terminal)

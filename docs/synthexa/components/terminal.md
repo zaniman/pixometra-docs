@@ -1,6 +1,6 @@
 # Terminal Dashboard
 
-The signature component of SYNTHEX — a fully animated multi-panel data visualization widget with a CRT terminal aesthetic.
+The signature component of SYNTHEXA — a fully animated multi-panel data visualization widget with a CRT terminal aesthetic.
 
 Used in the homepage hero and across the site to showcase metrics, status, and automation workflows.
 
@@ -329,6 +329,6 @@ Layout: Equal halves
 
 ## Next Steps
 
-→ [ROI Calculator](/synthex/components/roi-calculator)
+→ [ROI Calculator](/synthexa/components/roi-calculator)
 
-→ [404 Game](/synthex/components/404-game)
+→ [404 Game](/synthexa/components/404-game)

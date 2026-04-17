@@ -1,6 +1,6 @@
 # Pages Overview
 
-SYNTHEX comes with **12 fully designed pages** ready for customization.
+SYNTHEXA comes with **12 fully designed pages** ready for customization.
 
 ## Static Pages
 
@@ -48,4 +48,4 @@ Static pages like Homepage should be edited on the canvas, while repetitive cont
 
 Ready to edit content? Learn the techniques:
 
-→ [Editing Content](/synthex/guide/editing-content)
+→ [Editing Content](/synthexa/guide/editing-content)

@@ -26,7 +26,7 @@ Create at least these two:
 **Content:** Your privacy policy text
 
 :::warning
-Replace `legal@synthex.com` with your actual email address before publishing.
+Replace `legal@synthexa.com` with your actual email address before publishing.
 :::
 
 ### 2. Terms of Service
@@ -78,4 +78,4 @@ Legal documents are automatically linked in the footer. No additional setup requ
 
 ## Next Steps
 
-→ [Pricing Collection](/synthex/guide/cms-pricing)
+→ [Pricing Collection](/synthexa/guide/cms-pricing)

@@ -22,7 +22,7 @@ Changes appear instantly on the canvas.
 
 ## Changing Text Styles
 
-All text in SYNTHEX uses **global Text Styles**. 
+All text in SYNTHEXA uses **global Text Styles**. 
 
 **To update a style:**
 1. Go to **Assets** → **Text Styles**
@@ -90,7 +90,7 @@ Editing component internals breaks them. Always use the property controls in the
 
 ## Switching Themes (Dark & Light Mode)
 
-SYNTHEX includes **Light and Dark color schemes** that users can toggle on your live site. This allows visitors to choose their preferred viewing experience.
+SYNTHEXA includes **Light and Dark color schemes** that users can toggle on your live site. This allows visitors to choose their preferred viewing experience.
 
 ### How Users Switch Themes
 
@@ -149,4 +149,4 @@ Now your site will look identical regardless of system settings or theme prefere
 
 For dynamic content management, check out:
 
-→ [CMS Collections](/synthex/guide/cms-overview)
+→ [CMS Collections](/synthexa/guide/cms-overview)
