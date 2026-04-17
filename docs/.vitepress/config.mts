@@ -1,9 +1,16 @@
 import { defineConfig } from 'vitepress'
+import { zoomableImagesPlugin } from './plugins/zoomable-images'
 
 export default defineConfig({
   title: "Pixometra Documentation",
   description: "Complete documentation for Pixometra Framer templates",
   lang: 'en-US',
+
+  markdown: {
+    config(md) {
+      zoomableImagesPlugin(md)
+    }
+  },
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
@@ -120,7 +127,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Made with ❤️ by Pixometra',
+      message: 'Made by Pixometra',
       copyright: 'Copyright © 2026 Pixometra'
     },
 
