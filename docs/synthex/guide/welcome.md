@@ -8,8 +8,8 @@ SYNTHEX is built around a **retro-futurist terminal aesthetic** — dark backgro
 
 - **12 fully designed pages**
 - **7 CMS collections**  
-- **43 Framer components** + **3 code components**
-- **Custom design system** with 23 color tokens
+- **3 custom components** (Terminal Dashboard, ROI Calculator, 404 Game)
+- **Light & Dark color schemes** (users can toggle)
 
 ## What You'll Learn
 

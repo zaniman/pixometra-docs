@@ -15,9 +15,9 @@ Framer creates a copy of the project in your workspace automatically. You now ow
 Your project contains:
 - ✅ All 12 pages
 - ✅ All 7 CMS collections
-- ✅ All 43 Framer components + 3 code components
-- ✅ Complete design system
-- ✅ All color tokens and text styles
+- ✅ 3 custom components (Terminal Dashboard, ROI Calculator, 404 Game)
+- ✅ Light & Dark color schemes
+- ✅ Ready to customize
 
 ## Step 4: Start Customizing
 

@@ -12,10 +12,8 @@ Premium Framer template for AI automation agencies with retro-futuristic termina
 **Features:**
 - 12 fully designed pages
 - 7 CMS collections (Blog, Cases, Career, Legal, Pricing)
-- 43 Framer components + 3 code components
-- 23 color tokens, 15 text styles
-- Mobile responsive
-- Production-ready
+- 3 custom components (Terminal Dashboard, ROI Calculator, 404 Game)
+- Light & Dark color schemes (users can toggle)
 
 [→ SYNTHEX Documentation](/synthex/)
 
