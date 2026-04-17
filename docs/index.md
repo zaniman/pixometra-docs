@@ -17,7 +17,3 @@ Premium Framer template for AI automation agencies with retro-futuristic termina
 
 [→ SYNTHEX Documentation](/synthex/)
 
----
-
-**Made by Pixometra** ❤️  
-Building premium Framer templates for agencies and enterprises.
