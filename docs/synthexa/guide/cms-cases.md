@@ -58,26 +58,19 @@ The Terminal Snapshot field displays a branded terminal component showing compan
 
 1. Click the **+Insert** button in the Terminal Snapshot rich text field
 2. In the popup window, navigate to **Terminal** > **TerminalCases** and select the component
+
+![Add TerminalCase](/images/guide/synthexa-24.png)
+
 3. Once added to the editor, click on the terminal component
 4. In the popup menu, select the company variant (e.g., "AcmeCorpCase", "LuckycharmCase")
+
+![Add TerminalCase](/images/guide/synthexa-25.png)
+
 5. The variant displays with pre-configured company info, metrics, and branding
 
-**Creating new terminal variants:**
-
-If you need a new company variant:
-
-1. Go to **Assets** → **Components** → **Terminal** → **TerminalCases** 
-2. Click **Edit Component** to open the TerminalCases component
-3. Duplicate an existing case variant (e.g., AcmeCorpCase)
-4. Rename it to match your company (e.g., "YourCompanyCase")
-5. Update inside the variant:
-   - Company logo (20px height recommended)
-   - Company name and profile text
-   - Industry, team size, founded date
-   - Key metrics and values
-   - Connected tools count
-   - Deployment time
-6. Save and return to the CMS — your new variant now appears in the dropdown
+:::tip
+**Before adding a terminal snapshot:** Make sure you've created a company variant in the TerminalCases component. See [Terminal Cases Component](/synthexa/components/other#terminal-cases) for detailed setup instructions.
+:::
 
 ## Example Case Study
 

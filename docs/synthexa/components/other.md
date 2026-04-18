@@ -129,6 +129,61 @@ Responsive navigation bar with logo, menu items, CTA button, and mobile hamburge
 - Adjust logo
 - Customize hover/active states
 
+## Terminal Cases
+
+Branded terminal component for displaying company case study information in portfolio items.
+
+**Use Cases:**
+- Case study pages (visual company snapshot)
+- Portfolio grid (preview of projects)
+- Client success stories
+
+**Features:**
+- Pre-built company variants (AcmeCorpCase, LuckycharmCase, etc.)
+- Customizable company logo, profile, and metrics
+- Dynamic KPI display
+- Terminal aesthetic with branding
+- Light/dark theme support
+
+### Creating a New Company Variant
+
+Before using a terminal case snapshot in the CMS, create a company variant:
+
+1. Go to **Assets** → **Components** → **Terminal** → **TerminalCases**
+2. Click **Edit Component** to open the TerminalCases component editor
+3. Find an existing case variant to duplicate (e.g., "AcmeCorpCase")
+4. Right-click and duplicate → Rename to your company (e.g., "YourCompanyCase")
+5. Double-click the new variant to edit it
+
+**Update these fields inside the variant:**
+
+- **Company Logo** — Replace with your company logo (20px height recommended)
+- **Company Name** — Update to your company name
+- **Company Profile** — Edit the company description text
+- **Industry** — Change industry classification
+- **Team Size** — Update employee count
+- **Founded** — Update founding year
+- **Metrics Section** — Update KPI labels and values:
+  - Hours reclaimed/week
+  - Automations live
+  - Cost saved/year
+  - Payback period or success rate
+- **Connected Tools Count** — Number showing integrations
+- **Deployment Time** — How long implementation took
+
+6. Save the component — your variant now appears in the CMS dropdown
+
+### Using in CMS
+
+Once your variant is created, it's ready to use in the [Cases Collection](/synthexa/guide/cms-cases#terminal-snapshot-setup):
+
+1. Open a case in the Cases CMS
+2. In the **Terminal Snapshot** field, click **+Insert**
+3. Select **Terminal** > **TerminalCases**
+4. Click on the added component
+5. Select your company variant from the dropdown
+6. Your branded terminal snapshot now displays on the case page
+
 ## Footer
 
 Site-wide footer with logo, navigation columns, social links, and legal page links.
