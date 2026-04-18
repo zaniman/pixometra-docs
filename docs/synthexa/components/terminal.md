@@ -227,6 +227,8 @@ Empty panel — use to disable a slot or add intentional whitespace.
 
 Automatically arranges panels based on count and aspect ratios.
 
+![Auto](/images/guide/synthexa-62.png)
+
 ### Stacked
 
 Panels stack vertically.
@@ -265,16 +267,27 @@ Two columns of equal width.
 
 ### Wide Left / Wide Right
 
-Asymmetric layout (1 large + 2 small panels).
+Asymmetric two-column layout where one column is wider than the other.
 
+**Wide Left:** Left column is wider
 ```
-Wide Left:           Wide Right:
-┌────┬────┐         ┌────┬────┐
-│    │ P2 │         │ P2 │    │
-│ P1 ├────┤   OR    ├────┤ P1 │
-│    │ P3 │         │ P3 │    │
-└────┴────┘         └────┴────┘
+┌──────────┬────┐
+│  Panel   │ P2 │
+│    1     ├────┤
+│          │ P3 │
+└──────────┴────┘
 ```
+
+**Wide Right:** Right column is wider
+```
+┌────┬──────────┐
+│ P2 │  Panel   │
+├────┤    1     │
+│ P3 │          │
+└────┴──────────┘
+```
+
+Panels fill the available space in their column regardless of count.
 
 ### Custom Layout
 
