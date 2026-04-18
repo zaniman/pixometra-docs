@@ -156,6 +156,4 @@ For large imports of content (many blog posts at once), consider:
 
 ## Next Steps
 
-Now that you can edit CMS content, let's customize your design:
-
-→ [Design System - Colors](/synthexa/design/colors)
+→ [Blog Collection](/synthexa/guide/cms-blog)

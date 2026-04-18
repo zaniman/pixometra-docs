@@ -121,23 +121,22 @@ To edit the buttons at the bottom of the comparison table:
 1. With **ComparisonTable** selected in Layers (or after clicking it on canvas), go to the **Properties panel**
 2. Click **Edit Component** (in the ComparisonTable section or at the top of Properties)
 3. The component enters edit mode. Make sure you're viewing the **Desktop | Primary** variant (visible in the top-left toolbar) so your button changes inherit to other component variants
-4. Select the button for the plan you want to modify (click on canvas or select in Layers)
+
+![Component Primary Variant](/images/guide/synthexa-29.png)
+
+4. Select the button for the plan you want to modify (click on canvas or select in Layers (ButtonMain component))
+
 5. In the **Properties panel**, update:
    - **Label** — The button text (e.g., "Get Started")
    - **Icon** — Show or hide an icon next to the button text
    - **Link** — The URL the button links to
 
+![Button component properties](/images/guide/synthexa-30.png)
+
 :::tip
 Plan prices, descriptions, and the main card layout are part of the Pricing page design. Adjust these directly on the canvas as needed. The CMS Pricing collection only controls the comparison table **rows** (features), not the plan cards themselves.
 :::
 
-## Tips
-
-- **Keep names short** — One or two words for table readability
-- **Use sections wisely** — Group related features with "Section" headers
-- **Mix icons and text** — Use ✓/✗ for simple yes/no, text for nuanced differences
-- **Update regularly** — When plans change, update both the CMS and canvas
-
 ## Next Steps
 
-→ [How to Edit CMS Content](/synthexa/guide/cms-edit)
+→ [Design System - Colors](/synthexa/design/colors)

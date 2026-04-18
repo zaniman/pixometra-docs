@@ -77,12 +77,12 @@ export default defineConfig({
           text: 'CMS Collections',
           items: [
             { text: 'Overview', link: '/synthexa/guide/cms-overview' },
+            { text: 'How to Edit', link: '/synthexa/guide/cms-edit' },
             { text: 'Blog', link: '/synthexa/guide/cms-blog' },
             { text: 'Cases', link: '/synthexa/guide/cms-cases' },
             { text: 'Career', link: '/synthexa/guide/cms-career' },
             { text: 'Legal', link: '/synthexa/guide/cms-legal' },
             { text: 'Pricing', link: '/synthexa/guide/cms-pricing' },
-            { text: 'How to Edit', link: '/synthexa/guide/cms-edit' },
           ]
         },
         {

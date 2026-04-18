@@ -55,11 +55,4 @@ The new item is now live (on next publish).
 
 ## Next Steps
 
-Learn details about each collection:
-
-- [Blog Collection](/synthexa/guide/cms-blog)
-- [Cases Collection](/synthexa/guide/cms-cases)
-- [Career Collection](/synthexa/guide/cms-career)
-- [Legal Collection](/synthexa/guide/cms-legal)
-- [Pricing Collection](/synthexa/guide/cms-pricing)
-- [How to Edit CMS Content](/synthexa/guide/cms-edit)
+→ [How to Edit CMS Content](/synthexa/guide/cms-edit)
