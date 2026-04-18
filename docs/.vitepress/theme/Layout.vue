@@ -20,15 +20,15 @@ const DefaultLayout = DefaultTheme.Layout
 .documentation-notice {
   background: linear-gradient(135deg, #fff9e6 0%, #fff4cc 100%);
   border-bottom: 1px solid #ffd700;
-  padding: 8px 20px;
+  padding: 8px 0;
   text-align: center;
   font-size: 13px;
   color: #8b6914;
   position: sticky;
   top: 62px;
   z-index: 10;
-  width: 100%;
-  box-sizing: border-box;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
 }
 
 .notice-content {
