@@ -79,9 +79,19 @@ Animated typewriter with input/output lines.
 
 **Lines array:**
 - Use when Script is empty to have granular control over individual lines
+
+![Lines array](/images/guide/synthexa-44.png)
+
 - Each line item can be either:
   - **Text** — Terminal text line (same `>` prefix rules apply)
+  
+  ![Terminal Panel Prop Text](/images/guide/synthexa-42.png)
+
   - **SVG** — Inline SVG graphic (useful for rendering graphics mid-animation)
+
+  ![Terminal Panel Prop SVG](/images/guide/synthexa-43.png)
+
+  
 
 **Note:** Use either Script (for simple text input) OR Lines array (for granular/mixed text+SVG control), not both.
 
@@ -95,18 +105,23 @@ Connecting to 4 systems...
   [✓] Chat: Slack
 Automation complete // 4h saved this month
 ```
+![Terminal Panel Prop](/images/guide/synthexa-41.png)
 
 ### Sparkline
 
 Animated dual-line canvas chart for showing trends.
 
+![Sparkline](/images/guide/synthexa-45.png)
+
 | Property | Type | Description |
 |----------|------|-------------|
-| **Sparklines** | Array | Collection of sparkline data series (max 2) |
+| **Sparklines** | Array | Collection of sparkline data series |
+
+![Sparkline](/images/guide/synthexa-46.png)
 
 Each sparkline item contains:
 - **Label** — Legend label for the line
-- **Data** — Array of numbers (0–100) representing the trend
+- **Values** — Array of numbers (0–100) representing the trend (add/remove values with sliders)
 
 ### Bars
 
