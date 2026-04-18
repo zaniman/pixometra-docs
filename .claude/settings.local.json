@@ -59,7 +59,9 @@
       "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs commit -m 'Add synthexa-02@2x.png as temporary placeholder *)",
       "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs add docs/.vitepress/config.mts docs/.vitepress/theme/index.js)",
       "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs commit -m ' *)",
-      "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs add docs/.vitepress/config.mts)"
+      "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs add docs/.vitepress/config.mts)",
+      "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs add docs/.vitepress/theme/custom.css)",
+      "Bash(npx vitepress *)"
     ]
   }
 }
