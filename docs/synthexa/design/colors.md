@@ -258,6 +258,9 @@ When choosing colors, consider:
 Test your color changes on both light and dark modes before publishing.
 
 In Framer, click the **sun/moon icon** in the bottom toolbar to toggle between light and dark theme preview while you edit.
+
+![Сolor theme toggle](/images/guide/synthexa-35.png)
+
 :::
 
 ## All Color Tokens Reference
@@ -275,6 +278,8 @@ In Framer, click the **sun/moon icon** in the bottom toolbar to toggle between l
 - `/Background/BackgroundBase`
 - `/Background/BackgroundElevated`
 - `/Background/BackgroundTop`
+- `/Background/BackgroundHighlight`
+- `/Background/BackgroundSurface`
 - `/Background/BackgroundCanvas`
 
 ### Text Group
