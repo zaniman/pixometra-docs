@@ -322,19 +322,14 @@ The sum of the split numbers must equal the total **Panels** count set above. Fo
 
 ### Loop
 
-Animations repeat continuously:
-- Typewriter loops
-- Sparkline updates every 2–3 seconds
-- Bars pulse
-- Status indicators pulse
+Animations repeat continuously
 
 ### Once
 
 Animations play once on component mount:
-- Typewriter plays once, then freezes
-- Bars animate once to final state
-- Status stays static
-- Ring gauges animate once to percentage
+
+- **Terminal panel:** Typewriter plays once, then freezes
+- **Other panels:** Bars, Status, Ring, and other visualizations animate once to their final state and stay static
 
 ### Fade
 
