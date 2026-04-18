@@ -8,16 +8,20 @@ Step-by-step guide to creating and editing CMS entries.
 
 In the Framer editor, go to the **left sidebar** and click the **CMS icon** (or find the CMS panel tab).
 
+![CMS Panel](/images/guide/synthexa-23.png)
+
 ### Step 2: Select Your Collection
 
 Choose the collection you want to add to:
-- Blog
-- Blog Authors
-- Blog Categories
-- Cases
-- Open Roles
 - Pricing
+- Cases
+- Careers
+- Blog
+- Blog Categories
+- Blog Authors
 - Legal
+
+![CMS Collections](/images/guide/synthexa-31.png)
 
 ### Step 3: Click "New Item"
 
@@ -48,6 +52,10 @@ Instead of creating from scratch, you can duplicate an existing entry to save ti
 
 1. **Open CMS panel** → select collection
 2. **Right-click** the item you want to copy
+
+![CMS Panel](/images/guide/synthexa-32.png)
+
+
 3. Select **Duplicate** from the menu
 4. A new item is created with all the same fields filled in
 5. **Edit the fields** that need to be different (title, content, etc.)
@@ -62,25 +70,11 @@ Instead of creating from scratch, you can duplicate an existing entry to save ti
 
 ## Editing an Existing Entry
 
-### Step 1: Open the CMS Panel
-
-**Left sidebar** → **CMS icon**
-
-### Step 2: Find the Collection
-
-Select the collection containing the item you want to edit.
-
-### Step 3: Click the Item
-
-All items in the collection are listed. Click the item you want to edit.
-
-### Step 4: Make Changes
-
-Edit any field. Your changes are saved automatically.
-
-### Step 5: Publish
-
-Click **Publish** (top-right) to make the changes live.
+- Step 1: Open the CMS Panel
+- Step 2: Find the Collection. Select the collection containing the item you want to edit.
+- Step 3: Click the Item. All items in the collection are listed. Click the item you want to edit.
+- Step 4: Make Changes. Edit any field. Your changes are saved automatically.
+- Step 5: Publish. Click **Publish** (top-right) to make the changes live.
 
 ## Deleting an Entry
 
@@ -101,18 +95,6 @@ Most collections let you drag items to reorder:
 2. **Click and drag** the item to a new position
 3. **Publish** to save the order
 
-## Rich Text Tips
-
-When editing Rich Text fields (like Blog Content or Case Study Details):
-
-- `# Heading 1` — Creates an H1 heading
-- `## Heading 2` — Creates an H2 heading
-- `**Bold**` — Makes text bold
-- `*Italic*` — Makes text italic
-- `[Link text](https://example.com)` — Creates a link
-- `-` for bullet points
-- `1.` for numbered lists
-
 ## Slug Auto-Generation
 
 When you create an entry with a **Title** field, the **Slug** (URL path) is auto-generated:
@@ -130,10 +112,33 @@ CMS changes don't go live until you **Publish** your site. Click **Publish** (to
 
 ## Bulk Operations
 
+### Select Multiple Items
+
+To manage multiple CMS entries at once:
+
+1. **Open CMS panel** → select collection
+2. **Check the checkbox** next to each item you want to select, or click **Select All** to select everything in the collection
+3. A toolbar appears with options:
+   - **Draft** — Hide items from your site without deleting them
+   - **Undraft** — Publish hidden items back to your site
+   - **Delete** — Permanently delete selected items
+   - **Cancel** — Close the selection toolbar
+
+### Draft Status
+
+Any CMS entry can be placed in **Draft** status:
+
+- **Draft items are hidden** from your live website
+- **Draft items are NOT deleted** — they remain in your CMS for later use
+- Use Draft to temporarily hide content (unpublished announcements, upcoming features, removed testimonials, etc.)
+- Draft and un-draft items individually by right-clicking, or select multiple items and use the bulk toolbar
+
+### Large Content Imports
+
 For large imports of content (many blog posts at once), consider:
 
 1. Using Framer's **CMS CSV import** (if available)
-2. Contacting Framer support for bulk operations
+2. Contacting Framer support for bulk import operations
 
 ## Troubleshooting
 
