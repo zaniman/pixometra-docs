@@ -291,7 +291,19 @@ Panels fill the available space in their column regardless of count.
 
 ### Custom Layout
 
-Enter a custom split string (e.g., `2|1` for 2 columns on left, 1 on right).
+Create a custom layout using a split string:
+
+1. In the **Layout** properties, toggle **Advanced** to **On**
+2. Enter a **Custom Split** string (e.g., `2|2` for 2 panels left, 2 right)
+
+**Format:** Numbers separated by `|` representing panel counts in each column.
+
+**Examples:**
+- `2|2` — 2 panels on left, 2 on right
+- `2|4` — 2 panels on left, 4 on right
+- `3|2|1` — 3 panels left, 2 middle, 1 right
+
+![Custom Split](/images/guide/synthexa-63.png)
 
 ## Colors
 
