@@ -98,7 +98,7 @@ The Terminal Snapshot field displays a branded terminal component showing compan
 **Solution:**
 "Synthexa connected every reporting source into a centralized automation flow that runs continuously in the background. Data is now synced automatically, validation checks happen in real time, and exceptions are flagged before they reach final reports..."
 
-**Case Story:**
+**Case Overview:**
 "Acme Corp replaced fragmented manual reporting with one automated workflow, turning a slow weekly process into a reliable real-time system used across four departments. As Acme expanded across multiple departments, reporting complexity increased faster than internal processes could handle..."
 
 **Testimonial Photo:** [Jennifer Wu portrait]
@@ -121,16 +121,6 @@ Once saved, a new case study page is created at `/cases/:slug` with:
 - Company logo and testimonial
 - KPI dashboard
 - Terminal snapshot preview
-- Navigation to other cases
-
-## Tips
-
-- **Company Logos** — Use SVG or PNG logos at 40×40px minimum
-- **KPI Values** — Use clear, quantifiable metrics (%, hours, currency, counts)
-- **Terminal Preview** — Keep it visually balanced, 2-3 key metrics displayed
-- **Testimonial Photo** — Use professional headshots (200×200px recommended)
-- **Rich Text Content** — Structure with clear headings: "Before Synthexa", "What changed", "Business impact"
-- **Case Title** — Lead with the key benefit or outcome for maximum impact
 
 ## Next Steps
 

@@ -46,7 +46,7 @@ For other collections (Cases, Legal, Pricing), there are no dependencies.
 ![CMS Panel](/images/guide/synthexa-23.png)
 
 2. Select a collection (e.g., Blog)
-3. Click **New Item** (or + button)
+3. Click **New Item**
 4. Fill in the fields
 5. Click **Save**
 6. Publish your site
