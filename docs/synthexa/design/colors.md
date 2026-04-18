@@ -266,28 +266,40 @@ In Framer, click the **sun/moon icon** in the bottom toolbar to toggle between l
 ## All Color Tokens Reference
 
 ### Terminal Group
-- `/Terminal/TerminalPrimary`
-- `/Terminal/TerminalSecondary`
-- `/Terminal/TerminalLines`
+
+Drive the retro CRT aesthetic. Used in code components (TerminalDashboard, ROICalculator, NotFoundGame), buttons, and decorative effects:
+
+- `/Terminal/TerminalPrimary` — Main neon accent color
+- `/Terminal/TerminalSecondary` — Secondary accent for contrast
+- `/Terminal/TerminalLines` — Grid lines and borders in terminal elements
 
 ### Brand Group
-- `/Brand/BrandPrimary`
-- `/Brand/BrandSecondary`
+
+Global brand identity colors used for broader site accents like navigation states, badges, and links:
+
+- `/Brand/BrandPrimary` — Primary brand color for buttons and interactive elements
+- `/Brand/BrandSecondary` — Secondary brand color for supporting UI elements
 
 ### Background Group
-- `/Background/BackgroundBase`
-- `/Background/BackgroundElevated`
-- `/Background/BackgroundTop`
-- `/Background/BackgroundHighlight`
-- `/Background/BackgroundSurface`
-- `/Background/BackgroundCanvas`
+
+Foundation colors for layout and page structure:
+
+- `/Background/BackgroundBase` — Main page/container background
+- `/Background/BackgroundElevated` — Elevated panels and cards (higher contrast)
+- `/Background/BackgroundTop` — Top navigation and header backgrounds
+- `/Background/BackgroundHighlight` — Highlighted or active background areas
+- `/Background/BackgroundSurface` — Surface elements like input fields and form backgrounds
+- `/Background/BackgroundCanvas` — Deepest background layer
 
 ### Text Group
-- `/Text/TextPrimary`
-- `/Text/TextSecondary`
-- `/Text/TextMuted`
-- `/Text/TextInverse`
-- `/Text/TextError`
+
+Typography colors for readability and hierarchy:
+
+- `/Text/TextPrimary` — Main body text and headlines
+- `/Text/TextSecondary` — Secondary text and labels
+- `/Text/TextMuted` — Disabled, subtle, or placeholder text
+- `/Text/TextInverse` — Text on dark/colored backgrounds for contrast
+- `/Text/TextError` — Error messages and warning text
 
 ### Others Group
 
