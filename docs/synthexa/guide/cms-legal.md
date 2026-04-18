@@ -31,10 +31,12 @@ Create at least these two:
 The Privacy Policy contains a link to `legal@synthexa.com`. Replace it with your actual email:
 
 1. In the Content rich text editor, **select the email address** text (legal@synthexa.com)
-2. Click the **Link** button (chain icon) in the toolbar
-3. In the "Link To" field, enter: `mailto:your-email@yourdomain.com`
-4. Click outside or confirm to apply the link
-5. Save the document
+2. **Delete it and type your new email address** (e.g., legal@yourcompany.com)
+3. **Select the email text you just typed**
+4. Click the **Link** button (chain icon) in the Rich Text toolbar
+5. In the "Link To" field, enter: `mailto:legal@yourcompany.com`
+6. Click outside or confirm to apply the link
+7. Save the document
 
 The email will now appear as a clickable mailto link that opens the user's email client.
 :::
