@@ -2,7 +2,7 @@
   <div>
     <div class="documentation-notice">
       <div class="notice-content">
-        <strong>📝 Documentation in Progress</strong> — This documentation is still being written and may contain inaccuracies. We're constantly improving it. Please report any issues or suggestions.
+        <strong>📝 Documentation in Progress</strong> — This documentation may contain inaccuracies.
       </div>
     </div>
     <DefaultLayout />
@@ -20,13 +20,10 @@ const DefaultLayout = DefaultTheme.Layout
 .documentation-notice {
   background: linear-gradient(135deg, #fff9e6 0%, #fff4cc 100%);
   border-bottom: 1px solid #ffd700;
-  padding: 12px 20px;
+  padding: 8px 20px;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   color: #8b6914;
-  position: sticky;
-  top: 0;
-  z-index: 100;
 }
 
 .notice-content {
