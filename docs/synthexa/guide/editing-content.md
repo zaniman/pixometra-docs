@@ -54,6 +54,20 @@ Avoid changing individual element styles. Always edit the global Text Style inst
 3. To edit them, select the component in the layers and click **Edit Component** in the right Properties panel
    - Alternatively, you can **double-click** the component directly on the canvas
 
+4. To update the link:
+
+- Select the navigation item.
+- Locate the **Link** field in the Properties panel.
+- Choose the page you want the item to link to.
+
+5. To change the navigation label (text):
+
+- Select the navigation item.
+- In the Properties panel, find the **Label** field.
+- Edit the text to change the menu item name.
+
+![Edit links](/images/guide/synthexa-16.png)
+
 ### Hero Sections  
 - Edit headline and subheadline with double-click
 - Replace hero image via Properties panel
