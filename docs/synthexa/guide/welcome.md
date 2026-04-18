@@ -8,7 +8,7 @@ SYNTHEXA is built around a **retro-futurist terminal aesthetic** — dark backgr
 
 - **12 fully designed pages**
 - **7 CMS collections**  
-- **3 custom components** (Terminal Dashboard, ROI Calculator, 404 Game)
+- **3 custom components** (TerminalDashboard, ROICalculator, NotFoundGame)
 - **Light & Dark color schemes** (users can toggle)
 
 ## What You'll Learn
@@ -19,7 +19,7 @@ In this documentation you'll discover how to:
 - ✅ **Edit pages & content** — Modify text, images, and layouts
 - ✅ **Manage CMS** — Control blog posts, cases, jobs, and legal pages
 - ✅ **Customize colors & fonts** — Match your brand identity
-- ✅ **Configure components** — Tweak Terminal Dashboard, ROI Calculator, and more
+- ✅ **Configure components** — Tweak TerminalDashboard, ROICalculator, and more
 - ✅ **Publish & connect domain** — Launch your site live
 
 ## Live Preview

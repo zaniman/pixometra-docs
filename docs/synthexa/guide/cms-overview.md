@@ -42,6 +42,9 @@ For other collections (Cases, Legal, Pricing), there are no dependencies.
 ## Adding Your First CMS Entry
 
 1. Open the **CMS panel** (left sidebar)
+
+![CMS Panel](/images/guide/synthexa-23.png)
+
 2. Select a collection (e.g., Blog)
 3. Click **New Item** (or + button)
 4. Fill in the fields

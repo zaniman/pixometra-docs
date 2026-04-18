@@ -26,7 +26,7 @@ Your copy now includes:
 
 - All 9 pages + dynamic routes
 - 7 CMS collections (Blog, Cases, Careers, Pricing, Legal, Authors, Categories)
-- 3 custom components (Terminal Dashboard, ROI Calculator, 404 Game)
+- 3 custom components (TerminalDashboard, ROICalculator, NotFoundGame)
 - Light & Dark color schemes
 - Complete design system with color tokens and text styles
 
@@ -39,8 +39,8 @@ Typical next steps include:
 - Replacing text and images with your own content
 - Updating brand colors (especially `/Terminal/TerminalPrimary` for your accent)
 - Adding your projects, case studies, and articles to CMS collections
-- Customizing the Terminal Dashboard with your metrics
-- Configuring the ROI Calculator with your pricing model
+- Customizing the TerminalDashboard with your metrics
+- Configuring the ROICalculator with your pricing model
 - Setting up contact forms and job applications
 - Publishing to your custom domain
 

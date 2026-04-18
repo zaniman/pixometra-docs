@@ -12,7 +12,7 @@ SYNTHEXA is built around a **retro-futurist terminal aesthetic** — dark backgr
 
 - **9 fully designed pages** + dynamic CMS routes
 - **7 CMS collections** with sample data (Blog, Cases, Pricing, Career, Legal, Authors, Categories)
-- **3 custom components** (Terminal Dashboard, ROI Calculator, 404 Game)
+- **3 custom components** (TerminalDashboard, ROICalculator, NotFoundGame)
 - **Light & Dark color schemes** (users can toggle)
 
 ## What You'll Learn
@@ -65,10 +65,10 @@ In this documentation, you'll discover how to:
 
 ### Custom Components
 
-- [Terminal Dashboard](/synthexa/components/terminal)
-- [ROI Calculator](/synthexa/components/roi-calculator)
-- [404 Game](/synthexa/components/404-game)
-- [Terminal Image Frame](/synthexa/components/terminal-image)
+- [TerminalDashboard](/synthexa/components/terminal)
+- [ROICalculator](/synthexa/components/roi-calculator)
+- [NotFoundGame](/synthexa/components/404-game)
+- [TerminalImage Frame](/synthexa/components/terminal-image)
 - [Other Components](/synthexa/components/other)
 
 ### Publishing & Deployment

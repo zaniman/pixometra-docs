@@ -1,4 +1,4 @@
-# Terminal Dashboard
+# TerminalDashboard
 
 The signature component of SYNTHEXA — a fully animated multi-panel data visualization widget with a CRT terminal aesthetic.
 
@@ -6,7 +6,7 @@ Used in the homepage hero and across the site to showcase metrics, status, and a
 
 ## Overview
 
-The Terminal Dashboard is a **code component** that renders:
+The TerminalDashboard is a **code component** that renders:
 - Multi-panel layouts with configurable panels (1–6)
 - Animated typewriter text (Terminal panel)
 - Data visualizations (Sparkline, Bars, Ring, Status)
@@ -329,6 +329,6 @@ Layout: Equal halves
 
 ## Next Steps
 
-→ [ROI Calculator](/synthexa/components/roi-calculator)
+→ [ROICalculator](/synthexa/components/roi-calculator)
 
-→ [404 Game](/synthexa/components/404-game)
+→ [NotFoundGame](/synthexa/components/404-game)

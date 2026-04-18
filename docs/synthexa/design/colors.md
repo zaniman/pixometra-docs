@@ -49,7 +49,7 @@ Change one token to update all instances across the entire site instantly.
 
 ## Terminal Colors
 
-Used inside Terminal Dashboard, Terminal Image, and all CRT-style UI elements. The most frequently customized tokens.
+Used inside TerminalDashboard, TerminalImage, and all CRT-style UI elements. The most frequently customized tokens.
 
 <div class="color-grid">
   <div class="color-card">
@@ -191,7 +191,7 @@ Foundation colors for layout and typography.
 ## Terminal vs Brand — What's the Difference?
 
 **Terminal tokens** drive the retro CRT aesthetic. They're used in:
-- Code components (Terminal Dashboard, ROI Calculator, 404 Game)
+- Code components (TerminalDashboard, ROICalculator, NotFoundGame)
 - Buttons and interactive elements
 - Decorative effects
 

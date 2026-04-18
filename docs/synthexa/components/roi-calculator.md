@@ -1,10 +1,10 @@
-# ROI Calculator
+# ROICalculator
 
 An interactive code component that estimates automation savings. Users adjust sliders in real-time to see cost-benefit calculations.
 
 ## Overview
 
-The ROI Calculator demonstrates the value of automation by letting visitors input their team details and see potential savings.
+The ROICalculator demonstrates the value of automation by letting visitors input their team details and see potential savings.
 
 **Key Features:**
 - Interactive sliders for input parameters
@@ -34,7 +34,7 @@ The ROI Calculator demonstrates the value of automation by letting visitors inpu
 
 ### Step 1: Select the Component
 
-Click the ROI Calculator on your page.
+Click the ROICalculator on your page.
 
 ### Step 2: Open Properties Panel
 
@@ -177,6 +177,6 @@ automationCost / ((teamSize * hoursPerWeek * hourlyRate * 4) / 12)
 
 ## Next Steps
 
-→ [404 Game](/synthexa/components/404-game)
+→ [NotFoundGame](/synthexa/components/404-game)
 
-→ [Terminal Image](/synthexa/components/terminal-image)
+→ [TerminalImage](/synthexa/components/terminal-image)

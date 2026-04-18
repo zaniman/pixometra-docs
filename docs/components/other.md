@@ -1,6 +1,6 @@
 # Other Components
 
-SYNTHEXA includes several additional design components beyond Terminal Dashboard, ROI Calculator, and Terminal Image.
+SYNTHEXA includes several additional design components beyond TerminalDashboard, ROICalculator, and TerminalImage.
 
 ## Number Flow
 

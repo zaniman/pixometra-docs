@@ -6,21 +6,21 @@ Change one token to update all instances across the entire site instantly.
 
 ## Terminal Colors
 
-Used inside Terminal Dashboard, Terminal Image, and all CRT-style UI elements. The most frequently customized tokens.
+Used inside TerminalDashboard, TerminalImage, and all CRT-style UI elements. The most frequently customized tokens.
 
 ### TerminalPrimary
 
 **Default:** `rgb(64, 255, 67)` (neon green)
 
 **Used For:**
-- Terminal Dashboard canvas elements
+- TerminalDashboard canvas elements
 - Input lines and prompts
 - Ring gauge fills
 - Sparkline chart lines
 - Glowing accent lines
 - Active status indicators
 - Buttons (hover glow & selected state)
-- Terminal Image tint
+- TerminalImage tint
 
 **This is the key token** that defines SYNTHEXA's retro-futuristic look.
 
@@ -30,7 +30,7 @@ Used inside Terminal Dashboard, Terminal Image, and all CRT-style UI elements. T
 
 **Used For:**
 - Terminal output text
-- Secondary labels inside Terminal Dashboard
+- Secondary labels inside TerminalDashboard
 - Decorative accents
 
 ### TerminalLines
@@ -38,7 +38,7 @@ Used inside Terminal Dashboard, Terminal Image, and all CRT-style UI elements. T
 **Default:** `rgba(222, 233, 250, 0.2)` (light blue, semi-transparent)
 
 **Used For:**
-- Dashed border lines between Terminal Dashboard panels
+- Dashed border lines between TerminalDashboard panels
 - Header and footer separator lines
 
 ## Brand Colors
@@ -88,7 +88,7 @@ Foundation colors for layout and typography.
 ## Terminal vs Brand — What's the Difference?
 
 **Terminal tokens** drive the retro CRT aesthetic. They're used in:
-- Code components (Terminal Dashboard, ROI Calculator, 404 Game)
+- Code components (TerminalDashboard, ROICalculator, NotFoundGame)
 - Buttons and interactive elements
 - Decorative effects
 

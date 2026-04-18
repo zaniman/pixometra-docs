@@ -1,10 +1,10 @@
-# Terminal Image
+# TerminalImage
 
 A Framer design component that wraps any photo inside a **retro CRT monitor frame** — complete with physical casing, corner bolt details, scanline effects, and glowing accent lines.
 
 ## Overview
 
-The Terminal Image adds a vintage computer aesthetic to any photo. It's fully designed in Framer (not a code component), so you can edit every detail.
+The TerminalImage adds a vintage computer aesthetic to any photo. It's fully designed in Framer (not a code component), so you can edit every detail.
 
 **What's Included:**
 - CRT monitor frame with 3D beveled edges
@@ -41,7 +41,7 @@ Four editable text fields:
 
 ### Step 1: Click the Component
 
-Single-click the Terminal Image on your canvas to select it.
+Single-click the TerminalImage on your canvas to select it.
 
 ### Step 2: Enter Component Edit Mode
 
@@ -49,7 +49,7 @@ Double-click or right-click → **Edit Component**
 
 You'll see the internal structure:
 ```
-Terminal Image (Frame)
+TerminalImage (Frame)
 ├── Monitor Casing
 │   ├── Outer Frame
 │   ├── Screen Area
@@ -99,7 +99,7 @@ Bottom Right: "1920×1080"
 
 ## Size Variants
 
-The Terminal Image comes in two sizes:
+The TerminalImage comes in two sizes:
 
 | Variant | Dimensions | Use |
 |---------|-----------|-----|
@@ -115,7 +115,7 @@ The Terminal Image comes in two sizes:
 
 The photo is tinted with `/Terminal/TerminalPrimary`:
 
-- Change this color token → all Terminal Images update
+- Change this color token → all TerminalImages update
 - Default: neon green `rgb(64, 255, 67)`
 - Adjust opacity of tint overlay layer if too strong
 
@@ -170,7 +170,7 @@ This requires knowledge of Framer design. For simpler use, just replace the phot
 
 ## Mobile Responsiveness
 
-The Terminal Image is responsive:
+The TerminalImage is responsive:
 
 - **Desktop** — Regular size (1060×626px)
 - **Tablet** — Medium size (~800×470px)
@@ -178,9 +178,9 @@ The Terminal Image is responsive:
 
 Framer handles responsive scaling automatically.
 
-## Multiple Terminal Images
+## Multiple TerminalImages
 
-Use multiple Terminal Images on the same page to showcase different projects:
+Use multiple TerminalImages on the same page to showcase different projects:
 
 1. Duplicate the component (right-click → Duplicate)
 2. Change the photo for each

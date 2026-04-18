@@ -112,12 +112,14 @@ To replace the SYNTHEXA logo with your own:
 - **Method 1:** Go to **File** → **Upload Image** and select your SVG file
 - **Method 2:** Drag and drop your SVG file directly from your operating system onto the canvas
 
+:::tip
 **Logo best practices:**
 - **Size** — Keep your logo **20px in height** to maintain layout consistency
 - **Theme colors** — Assign color tokens so the logo color changes with themes:
   - Use **TextPrimary** token for text elements
   - Use **BrandPrimary** token for icon/symbol elements
   - This ensures your logo adapts automatically to Light and Dark modes
+:::
 
 ### Hero Sections  
 - Edit headline and subheadline with double-click

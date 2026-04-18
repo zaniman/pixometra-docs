@@ -1,6 +1,6 @@
 # Other Components
 
-SYNTHEXA includes several additional design components beyond Terminal Dashboard, ROI Calculator, and Terminal Image.
+SYNTHEXA includes several additional design components beyond TerminalDashboard, ROICalculator, and TerminalImage.
 
 ## Number Flow
 
@@ -129,7 +129,7 @@ Responsive navigation bar with logo, menu items, CTA button, and mobile hamburge
 - Adjust logo
 - Customize hover/active states
 
-## Terminal Cases
+## TerminalCases
 
 Branded terminal component for displaying company case study information in portfolio items.
 

@@ -12,7 +12,7 @@ Premium Framer template for automation agencies, SaaS platforms, and tech-forwar
 **Features:**
 - 9 fully designed pages + dynamic CMS routes
 - 7 CMS collections (Blog, Cases, Career, Legal, Pricing)
-- 3 custom components (Terminal Dashboard, ROI Calculator, 404 Game)
+- 3 custom components (TerminalDashboard, ROICalculator, NotFoundGame)
 - Light & Dark color schemes (users can toggle)
 
 [→ SYNTHEXA Documentation](/synthexa/)

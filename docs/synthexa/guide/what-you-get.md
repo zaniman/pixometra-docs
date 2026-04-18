@@ -6,7 +6,7 @@ A complete, **production-ready Framer project** you can duplicate, edit, and pub
 
 | Page | URL | Description |
 |------|-----|-------------|
-| **Homepage** | `/` | Hero with Terminal Dashboard, services overview, featured cases, blog preview, ROI calculator, and CTA. Showcases your automation work. |
+| **Homepage** | `/` | Hero with TerminalDashboard, services overview, featured cases, blog preview, ROI calculator, and CTA. Showcases your automation work. |
 | **Pricing** | `/pricing` | Detailed feature comparison table across 3 service tiers. Easy to customize for your plans. |
 | **Cases** | `/cases` | Portfolio grid of client success stories powered by Cases CMS (9 case studies included). |
 | **Case Detail** | `/cases/:slug` | Auto-generated detail page for each case study with full metrics and testimonials. |
@@ -46,11 +46,11 @@ SYNTHEXA includes **7 fully configured CMS collections** with sample data:
 
 ## Custom interactive components
 
-### Terminal Dashboard ###
+### TerminalDashboard ###
 
 Multi-panel data visualization widget that displays your metrics with an authentic retro aesthetic. Customize any metric name and values to showcase case success rates, cost savings, hours automated, or ROI impact.
 
-![Terminal Dashboard](/images/guide/TerminalMain.png)
+![TerminalDashboard](/images/guide/TerminalMain.png)
 
 Features include:
 
@@ -60,11 +60,11 @@ Features include:
 - Custom SVG support — embed your own charts, graphs, or branded visuals
 - Fully configurable colors, layouts, and panel arrangements
 
-### ROI Calculator ###
+### ROICalculator ###
 
 Interactive slider-based tool for demonstrating client savings and automation benefits.
 
-![ROI Calculator](/images/guide/calculator.png)
+![ROICalculator](/images/guide/calculator.png)
 
 Build your own calculation model:
 

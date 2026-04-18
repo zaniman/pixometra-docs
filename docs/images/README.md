@@ -6,7 +6,7 @@ Storage for documentation screenshots and images.
 
 - **guide/** — Screenshots for guide pages (pages-overview, cms-collections, publishing, etc.)
 - **design/** — Screenshots for design system (colors, typography, tokens)
-- **components/** — Screenshots for components (Terminal Dashboard, ROI Calculator, 404 Game, etc.)
+- **components/** — Screenshots for components (TerminalDashboard, ROICalculator, NotFoundGame, etc.)
 
 ## Usage in Markdown
 
