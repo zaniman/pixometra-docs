@@ -9,8 +9,8 @@ The Open Roles collection powers your `/careers` page with job listings.
 | **Title** | String | Job title (e.g. "Senior React Developer") |
 | **Short Description** | String | One-liner on the careers listing |
 | **Location** | String | e.g. "Remote", "San Francisco", "NYC" |
-| **Employment Type** | Enum | Full-time / Contract / Part-time |
-| **Department** | Enum | Engineering / Design / Operations / Sales |
+| **Employment Type** | Enum | Full-time / Contract |
+| **Department** | Enum | Engineering / Design / Ops |
 | **Details** | Rich Text | Full job description using structured headings |
 
 ## Writing Job Descriptions
@@ -42,7 +42,7 @@ Brief overview of the position.
 
 **Title:** "Senior Automation Engineer"
 
-**Short Description:** "Build AI workflows that scale. Lead our automation platform."
+**Short Description:** "Design and implement production automation workflows. 2+ years building at scale with Make, n8n, Zapier."
 
 **Location:** "Remote"
 
@@ -52,25 +52,29 @@ Brief overview of the position.
 
 **Details:**
 
-```
-### About the Role
-We're looking for a Senior Automation Engineer to join our growing team...
-
+```markdown
 ### Responsibilities
-- Design and implement AI automation workflows
-- Collaborate with clients on process optimization
-- Mentor junior engineers
+- Design and implement automation workflows using tools like Make, n8n, and Zapier
+- Integrate third-party APIs and business systems (CRM, billing, HR tools)
+- Write exception handling logic and maintain monitoring for production automations
+- Collaborate with the solutions team to translate client requirements into technical specs
+- Document automation logic independently of the tooling layer
 
 ### Requirements
-- 5+ years of software engineering experience
-- Experience with Python and workflow automation
-- Understanding of LLM applications
+- 2+ years of experience building production automations
+- Strong understanding of REST APIs and webhook-based integrations
+- Experience with at least one major automation platform (Make, n8n, Zapier, or similar)
+- Ability to write and maintain JavaScript or Python for custom logic
+- Strong debugging skills — comfortable tracing failures across multiple systems
+- Experience working with CRM platforms (HubSpot, Salesforce) is a plus
 
-### What We Offer
-- Salary: $150k–$200k
-- Full health insurance
-- 4 weeks PTO
-- Remote-first culture
+### Offer
+- Competitive salary based on experience
+- Fully remote with flexible hours
+- Direct impact on client outcomes from day one
+- Access to a wide range of tooling and no bureaucratic overhead
+- Quarterly team retreats
+- Equipment budget for your home setup
 ```
 
 ## Auto-Generated Pages
