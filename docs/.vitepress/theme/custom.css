@@ -18,20 +18,6 @@
   --vp-c-brand-3: #40ff43;
 }
 
-/* 2x retina images (synthexa-03, synthexa-04) - display at 300px logical size */
-img[src*="synthexa-03"],
-img[src*="synthexa-04"] {
-  width: 300px !important;
-  height: auto !important;
-  max-width: 100% !important;
-}
-
-/* Large images (synthexa-05+) - full-size screenshots */
-img[src*="synthexa-05"] {
-  width: 600px !important;
-  height: auto !important;
-  max-width: 100% !important;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
