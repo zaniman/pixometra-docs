@@ -17,20 +17,35 @@ The ROICalculator demonstrates the value of automation by letting visitors input
 
 ## Default Inputs
 
-| Input | Default | Range | Unit |
-|-------|---------|-------|------|
-| **Team Size** | 12 | 1–100 | people |
-| **Manual Work per Person** | 8 | 1–60 | hrs/week |
-| **Avg Hourly Cost** | $55 | $10–$300 | per hour |
-| **Rework & Errors** | 12% | 0–50% | percentage |
+| Key | Label | Default | Range | Step | Unit |
+|-----|-------|---------|-------|------|------|
+| `teamSize` | Team size | 12 | 1–100 | 1 | people |
+| `hoursPerWeek` | Manual work per person (hrs/week) | 8 | 1–60 | 1 | hrs |
+| `hourlyRate` | Avg fully loaded cost ($/hr) | 55 | 10–300 | 5 | $/hr |
+| `errorRate` | Rework & errors (%) | 12 | 0–50 | 1 | % |
+
+## Default Variables
+
+Fixed constants used in all formulas — not exposed to the user as sliders.
+
+| Key | Value | Meaning |
+|-----|-------|---------|
+| `weeksPerMonth` | 4 | Weeks per month multiplier |
+| `inefficiencyFactor` | 1.15 | Overhead multiplier for workflow inefficiencies |
+| `savingsRate` | 0.8 | Share of losses that automation can recover (80%) |
 
 ## Default Outputs
 
-| Output | Format | Description |
-|--------|--------|-------------|
-| **You're Losing / Month** | Currency | Revenue lost to manual work |
-| **You Could Save / Month** | Currency | Potential monthly savings |
-| **Monthly Hours Lost** | Number | Total hours wasted on manual work |
+| Label | Formula | Format |
+|-------|---------|--------|
+| **You're losing / month** | `teamSize * hoursPerWeek * weeksPerMonth * hourlyRate * (1 + errorRate / 100) * inefficiencyFactor` | Currency |
+| **You could save / month** | `... * savingsRate` (same as above × 0.8) | Currency |
+| **Monthly hours lost** | `teamSize * hoursPerWeek * weeksPerMonth * (1 + errorRate / 100) * inefficiencyFactor` | Number |
+
+**With default values (12 people, 8 hrs, $55/hr, 12% errors):**
+- Losing / month ≈ **$27,203**
+- Could save / month ≈ **$21,762**
+- Hours lost / month ≈ **495 hrs**
 
 ## Customization
 
@@ -46,7 +61,23 @@ Open the Properties panel (right sidebar) to see customization options.
 
 ![ROICalculator Layer](/images/guide/synthexa-65@2x.png)
 
-### Step 3: Configure Inputs
+### Step 3: Configure Variables
+
+Variables are **fixed constants** used in formulas — they don't change via sliders and are not visible to the user. Use them for rates, coefficients, or any value you want to control centrally without exposing to users.
+
+**Option A: Use Defaults**
+- Leave **Variables** set to "Default"
+- No additional constants are available
+
+**Option B: Custom Variables**
+- Set **Variables** to "Custom"
+- Add items with a **Key** (variable name) and **Value** (numeric constant)
+- Each variable is available in all output formulas by its key name
+
+**Example:**
+- Key: `savingsRate`, Value: `0.8` — then use `teamSize * hoursPerWeek * savingsRate` in formulas
+
+### Step 4: Configure Inputs
 
 **Option A: Use Defaults**
 - Leave **Inputs** set to "Default"
@@ -57,7 +88,7 @@ Open the Properties panel (right sidebar) to see customization options.
 - Define your own input fields and ranges
 - Examples: "Projects handled", "Cost per project", "Automation budget"
 
-### Step 4: Configure Outputs
+### Step 5: Configure Outputs
 
 **Option A: Use Defaults**
 - Leave **Outputs** set to "Default"
@@ -68,7 +99,7 @@ Open the Properties panel (right sidebar) to see customization options.
 - Define what calculations to display
 - Formula fields accept JavaScript expressions
 
-### Step 5: Formulas
+### Step 6: Formulas
 
 When using **Custom** inputs/outputs, you can write formulas using JavaScript:
 
@@ -79,12 +110,13 @@ teamSize * hoursPerWeek * hourlyRate * 4
 
 This calculates: `12 * 8 * 55 * 4 = $21,120/month`
 
-**Available Variables:**
+**Available in formulas:**
 - Input names from your custom inputs
+- Variable keys from your custom variables
 - Standard JavaScript functions (Math.round, etc.)
 - Comparison operators (>, <, ==)
 
-### Step 6: Styling
+### Step 7: Styling
 
 Under **Appearance:**
 - **Theme** — Light or dark variant
