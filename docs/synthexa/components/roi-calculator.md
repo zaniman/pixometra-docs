@@ -6,6 +6,8 @@ An interactive code component that estimates automation savings. Users adjust sl
 
 The ROICalculator demonstrates the value of automation by letting visitors input their team details and see potential savings.
 
+![ROICalculator](/images/guide/calculator.png)
+
 **Key Features:**
 - Interactive sliders for input parameters
 - Real-time calculation of savings
@@ -34,11 +36,15 @@ The ROICalculator demonstrates the value of automation by letting visitors input
 
 ### Step 1: Select the Component
 
-Click the ROICalculator on your page.
+Click the ROICalculator component on your page or in the layer panel.
+
+![ROICalculator Layer](/images/guide/synthexa-64@2x.png)
 
 ### Step 2: Open Properties Panel
 
 Open the Properties panel (right sidebar) to see customization options.
+
+![ROICalculator Layer](/images/guide/synthexa-65@2x.png)
 
 ### Step 3: Configure Inputs
 

@@ -167,8 +167,7 @@ Your site visitors can toggle between Light and Dark modes using the **theme tog
 
 ![Theme Toggle Button](/images/guide/synthexa-01@2x.png)
 
-Simply click the toggle icon to switch between modes. The preference is saved in their browser, so they'll see their chosen theme each time they visit.
-
+Simply click the toggle icon to switch between modes.
 ### Customizing the Themes
 
 To modify the Light and Dark color schemes:

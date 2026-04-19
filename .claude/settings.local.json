@@ -61,7 +61,8 @@
       "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs commit -m ' *)",
       "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs add docs/.vitepress/config.mts)",
       "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs add docs/.vitepress/theme/custom.css)",
-      "Bash(npx vitepress *)"
+      "Bash(npx vitepress *)",
+      "Bash(git -C /Users/zaniman/Documents/work/Framer-Templates/pixometra-docs add docs/synthexa/components/terminal.md)"
     ]
   }
 }
