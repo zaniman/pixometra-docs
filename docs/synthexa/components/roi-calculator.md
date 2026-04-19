@@ -20,9 +20,9 @@ The ROICalculator demonstrates the value of automation by letting visitors input
 | Key | Label | Default | Range | Step | Unit |
 |-----|-------|---------|-------|------|------|
 | `teamSize` | Team size | 12 | 1–100 | 1 | people |
-| `hoursPerWeek` | Manual work per person (hrs/week) | 8 | 1–60 | 1 | hrs |
-| `hourlyRate` | Avg fully loaded cost ($/hr) | 55 | 10–300 | 5 | $/hr |
-| `errorRate` | Rework & errors (%) | 12 | 0–50 | 1 | % |
+| `hoursPerWeek` | Manual work per person | 8 | 1–60 | 1 | hrs |
+| `hourlyRate` | Avg fully loaded cost | 55 | 10–300 | 5 | $/hr |
+| `errorRate` | Rework & errors | 12 | 0–50 | 1 | % |
 
 ## Default Variables
 
@@ -74,6 +74,8 @@ Variables are **fixed constants** used in formulas — they don't change via sli
 - Add items with a **Key** (variable name) and **Value** (numeric constant)
 - Each variable is available in all output formulas by its key name
 
+![Custom Variables](/images/guide/synthexa-66@2x.png)
+
 **Example:**
 - Key: `savingsRate`, Value: `0.8` — then use `teamSize * hoursPerWeek * savingsRate` in formulas
 
@@ -88,6 +90,8 @@ Variables are **fixed constants** used in formulas — they don't change via sli
 - Define your own input fields and ranges
 - Examples: "Projects handled", "Cost per project", "Automation budget"
 
+![Custom Inputs](/images/guide/synthexa-67@2x.png)
+
 ### Step 5: Configure Outputs
 
 **Option A: Use Defaults**
@@ -99,9 +103,11 @@ Variables are **fixed constants** used in formulas — they don't change via sli
 - Define what calculations to display
 - Formula fields accept JavaScript expressions
 
+![Custom Outputs](/images/guide/synthexa-68@2x.png)
+
 ### Step 6: Formulas
 
-When using **Custom** inputs/outputs, you can write formulas using JavaScript:
+When using **Custom** outputs, you can write formulas:
 
 **Example Formula:**
 ```javascript
@@ -118,100 +124,98 @@ This calculates: `12 * 8 * 55 * 4 = $21,120/month`
 
 ### Step 7: Styling
 
-Under **Appearance:**
-- **Theme** — Light or dark variant
-- **Colors** — Primary, secondary, background
-- **Slider UI** — Default or custom (drop Framer components in slots)
+See the full **Property Controls** section below for all visual options.
 
-## Example: Custom Calculator
+## Property Controls
 
-**Goal:** Create a calculator for project pricing estimates.
+![Property Controls](/images/guide/synthexa-71@2x.png)
 
-### Inputs:
-- `projectSize` — Small (0), Medium (1), Large (2)
-- `teamCount` — 1–20 people
-- `timelineWeeks` — 2–26 weeks
+### Content
 
-### Formulas:
-```javascript
-// Base cost by project size
-baseCost = projectSize === 0 ? 5000 : projectSize === 1 ? 15000 : 40000
+| Property | Type | Default | Description |
+|----------|------|---------|-------------|
+| **Title** | String | "ROI Calculator" | Heading displayed above the sliders. Leave empty to hide |
+| **Outputs Layout** | Enum | Vertical | **Vertical** — outputs stack top to bottom; **Horizontal** — outputs line up side by side |
+| **Footer Note** | String | "Based on estimated..." | Small note below outputs. Leave empty to hide |
 
-// Adjust for team size
-teamMultiplier = 1 + (teamCount * 0.1)
+### Currency
 
-// Adjust for timeline
-timelineDiscount = Math.max(0.8, 1 - (timelineWeeks / 26))
+| Property | Type | Default | Description |
+|----------|------|---------|-------------|
+| **Currency** | String | `$` | Symbol prepended to currency-formatted outputs |
+| **Decimals** | Number | 0 | Decimal places for currency values (0–6) |
+| **Grouping** | Toggle | On | **On** — thousands separator (e.g. $27,203); **Off** — no separator |
 
-// Final estimate
-estimate = baseCost * teamMultiplier * timelineDiscount
-```
+### Appearance
 
-## Advanced: Custom Slider UI
+| Property | Type | Default | Description |
+|----------|------|---------|-------------|
+| **Background** | Color | `#FFFFFF` | Component background color |
+| **Border** | Color | `#EEEEEE` | Border color |
+| **Border Width** | Number | 0 | Border thickness in px (0–12) |
+| **Radius** | BorderRadius | `0px` | Corner rounding |
+| **Padding** | Padding | `0 4 0 4` | Inner padding (top, right, bottom, left) |
 
-For full brand customization, you can:
+### Typography
 
-1. Set **Slider UI** to "Custom"
-2. Drop Framer components into:
-   - **Track** — Background bar
-   - **Fill** — Filled portion of bar
-   - **Thumb** — Draggable handle
-3. Style to match your design system
+Three independent font controls — each sets the typeface, weight, size, letter-spacing, and line-height:
 
-## Mobile Behavior
+| Property | Applies To | Default |
+|----------|-----------|---------|
+| **Title Font** | Component heading | Inter, Semibold, 18px, -0.02em, 1.2em |
+| **Label Font** | Slider labels, output labels, footer note | Inter, Medium, 12px, -0.01em, 1.2em |
+| **Value Font** | Output result values | Inter, Semibold, 24px, -0.03em, 1.1em |
 
-On mobile, the calculator:
-- Stacks inputs vertically
-- Shows one input per row
-- Responsive slider sizing
-- Touch-friendly interactions
+| Property | Type | Default | Description |
+|----------|------|---------|-------------|
+| **Label Color** | Color | `#000000` | Color for all labels and footer note |
+| **Value Color** | Color | `#000000` | Color for output values and the title |
 
-## Responsive Sizing
+### Slider
 
-The calculator scales responsively:
-- Desktop: Full width with side-by-side layout
-- Tablet: Reduced padding, centered
-- Mobile: Full-width, stacked inputs
+The **Slider** property group controls the appearance of the native slider bar:
 
-## Accessibility
+| Sub-property | Type | Default | Description |
+|-------------|------|---------|-------------|
+| **Track** | Color | `#EEEEEE` | Unfilled portion of the slider track |
+| **Fill** | Color | `#000000` | Filled portion (left of thumb) |
+| **Thumb** | Color | `#FFFFFF` | Draggable thumb handle color |
+| **Thumb Border** | Number | 2 | Border width around the thumb in px (0–10) |
+| **Height** | Number | 6 | Track height in px (2–16) |
+| **Radius** | Number | 999 | Track corner radius (999 = fully rounded pill) |
 
-- Keyboard navigation — Tab through inputs
-- Screen reader friendly — Labels associated with inputs
-- Focus states — Clear visual indication
-- Sufficient contrast — Text readable on all themes
+### Slider UI
 
-## Troubleshooting
+| Property | Type | Default | Description |
+|----------|------|---------|-------------|
+| **Slider UI** | Enum | Default | **Default** — uses the native styled slider; **Custom** — connect or select Framer components in Track, Fill, and Thumb slots |
 
-**Sliders not working?**
-- Check input range is valid (min < max)
-- Verify formulas don't reference undefined variables
-- Test in preview mode
+When **Custom** is selected, three slot properties appear:
 
-**Formula errors?**
-- Check for typos in variable names
-- Use parentheses for complex expressions: `(a + b) * c`
-- Avoid division by zero: `amount / Math.max(divisor, 1)`
+| Property | Description |
+|----------|-------------|
+| **Custom Track** | Framer component used as the slider track background |
+| **Custom Fill** | Framer component used as the filled progress bar |
+| **Custom Thumb** | Framer component used as the draggable handle |
+| **Thumb Scale** | Scale multiplier for the thumb component (0.5–3, default: 1) |
 
-**Custom components not showing?**
-- Make sure you've inserted components in Track/Fill/Thumb slots
-- Check component sizes fit the slider dimensions
+![Custom UI](/images/guide/synthexa-70@2x.png)
 
-## Common Formulas
+![Custom UI](/images/guide/synthexa-69@2x.png)
 
-### Monthly Savings
-```javascript
-(teamSize * hoursPerWeek * hourlyRate * 4) - automationCost
-```
+The Track and Fill components are always stretched to 100% width; the Fill is clipped by the current slider percentage.
 
-### Break-even Timeline
-```javascript
-automationCost / ((teamSize * hoursPerWeek * hourlyRate * 4) / 12)
-```
+### Gaps
 
-### Annual ROI
-```javascript
-((teamSize * hoursPerWeek * hourlyRate * 52) - (automationCost * 12)) / (automationCost * 12) * 100
-```
+The **Gaps** property group controls all internal spacing:
+
+| Sub-property | Default | Description |
+|-------------|---------|-------------|
+| **Gap** | 24px | Space between the main sections (inputs block, outputs block, footer) |
+| **Input Gap** | 24px | Space between individual slider rows |
+| **Result Gap** | 16px | Space between individual output items |
+| **Label ↕ Track** | 8px | Gap between the slider label row and the track |
+| **Label ↕ Value** | 4px | Gap between an output label and its result value |
 
 ## Next Steps
 
