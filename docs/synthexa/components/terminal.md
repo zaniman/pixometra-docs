@@ -97,7 +97,7 @@ Animated typewriter with input/output lines.
 
 **Example:**
 ```
-> synthex --scan --client=acme_corp
+> synthexa --scan --client=acme_corp
 Connecting to 4 systems...
   [✓] CRM: Salesforce
   [✓] Email: Mailchimp
