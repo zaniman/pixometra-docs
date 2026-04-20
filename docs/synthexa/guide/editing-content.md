@@ -152,11 +152,6 @@ For components like **TerminalDashboard**, **ROICalculator**, etc., don't edit t
 Editing component internals breaks them. Always use the property controls in the Properties panel.
 :::
 
-## Undo & Redo
-
-- **Undo** — `Cmd+Z` (Mac) or `Ctrl+Z` (Windows)
-- **Redo** — `Cmd+Shift+Z` (Mac) or `Ctrl+Shift+Z` (Windows)
-
 ## Switching Themes (Dark & Light Mode)
 
 SYNTHEXA includes **Light and Dark color schemes** that users can toggle on your live site. This allows visitors to choose their preferred viewing experience.
