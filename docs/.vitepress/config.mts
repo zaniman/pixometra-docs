@@ -124,10 +124,26 @@ export default defineConfig({
         {
           text: 'Components',
           items: [
-            { text: 'TerminalDashboard', link: '/synthexa/components/terminal' },
-            { text: 'ROICalculator', link: '/synthexa/components/roi-calculator' },
-            { text: 'NotFoundGame', link: '/synthexa/components/404-game' },
-            { text: 'TerminalImage', link: '/synthexa/components/terminal-image' },
+            {
+              text: 'Cards',
+              items: [
+                { text: 'CardPattern', link: '/synthexa/components/card-pattern' },
+              ]
+            },
+            {
+              text: 'Code Components',
+              items: [
+                { text: 'ROICalculator', link: '/synthexa/components/roi-calculator' },
+                { text: 'NotFoundGame', link: '/synthexa/components/404-game' },
+              ]
+            },
+            {
+              text: 'Terminal Components',
+              items: [
+                { text: 'TerminalDashboard', link: '/synthexa/components/terminal' },
+                { text: 'TerminalImage', link: '/synthexa/components/terminal-image' },
+              ]
+            },
             { text: 'Other Components', link: '/synthexa/components/other' },
           ]
         },
