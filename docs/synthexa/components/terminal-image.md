@@ -1,214 +1,55 @@
 # TerminalImage
 
-A Framer design component that wraps any photo inside a **retro CRT monitor frame** — complete with physical casing, corner bolt details, scanline effects, and glowing accent lines.
+A Framer design component that wraps any photo inside a retro CRT monitor frame with scanline effects, corner bolts, and editable text labels.
 
-## Overview
+![TerminalImage](/images/guide/TerminalImage.png)
 
-The TerminalImage adds a vintage computer aesthetic to any photo. It's fully designed in Framer (not a code component), so you can edit every detail.
+## Property Controls
 
-**What's Included:**
-- CRT monitor frame with 3D beveled edges
-- Bolts at all four corners
-- Semi-transparent color tint overlay
-- Scanline and noise effects
-- Editable text labels (top-left, top-right, bottom-left, bottom-right)
-- Two size variants (Regular and Small)
+![TerminalImage](/images/guide/synthexa-73@2x.png)
 
-## Structure
+### Variant
 
-The component has multiple layers:
+| Value | Description |
+|-------|-------------|
+| **Regular** | Full-width featured image — used for hero sections and wide featured layouts |
+| **Small** | Compact image — used for mobile breakpoints and smaller visuals like blog card photos |
 
-### Monitor Frame
-The outer casing that simulates a vintage CRT monitor.
+Select the variant from the dropdown in the Properties panel.
 
-### Photo Layer
-Your image displayed inside the screen.
+### Main Image
 
-### Tint Overlay
-A semi-transparent layer using `/Terminal/TerminalPrimary` that tints the photo to match the terminal accent color.
+Click **Main Image** to upload or replace the photo displayed inside the monitor screen.
 
-### CRT Effects
-Scanline and noise overlay applied at 30% opacity inside the screen area.
+Any image you place is automatically **tinted with the `/Terminal/TerminalPrimary` color token**.
 
-### Labels
-Four editable text fields:
-- **Top Left** — e.g., "SYSTEM_IN.exe"
-- **Top Right** — e.g., "v2.4"
-- **Bottom Left** — e.g., "⚡ LIVE"
-- **Bottom Right** — e.g., "1280×720"
+### Show top text / Show bottom text
 
-## How to Replace the Photo
+| Property | Default | Description |
+|----------|---------|-------------|
+| **Show top text** | Yes | Toggle visibility of the top label row (Top Left + Top Right) |
+| **Show bottom text** | Yes | Toggle visibility of the bottom label row (Bottom Left + Bottom Right) |
 
-### Step 1: Click the Component
+### Text Labels
 
-Single-click the TerminalImage on your canvas to select it.
+Four independent text strings positioned in the corners of the monitor frame:
 
-### Step 2: Enter Component Edit Mode
+| Property | Position |
+|----------|---------|
+| **Top Left Text** | Top-left corner |
+| **Top Right Text** | Top-right corner |
+| **Bottom Left Text** | Bottom-left corner |
+| **Bottom Right Text** | Bottom-right corner |
 
-Double-click or right-click → **Edit Component**
+Edit each field directly in the Properties panel — no need to enter component edit mode.
 
-You'll see the internal structure:
-```
-TerminalImage (Frame)
-├── Monitor Casing
-│   ├── Outer Frame
-│   ├── Screen Area
-│   │   ├── Photo Layer
-│   │   ├── Tint Overlay
-│   │   └── Effects (Scanlines, Noise)
-│   └── Bolts (4)
-└── Labels (4 text layers)
-```
+### Text Color
 
-### Step 3: Navigate to Photo Layer
+| Property | Default | Description |
+|----------|---------|-------------|
+| **Text Color** | `TerminalSecondary` | Color applied to all four label strings |
 
-Inside the component:
-1. Find the **Photo layer**
-2. It's usually nested under **Screen Area** or **Display**
-3. Single-click it to select it
-
-### Step 4: Replace the Image
-
-In the **Properties panel** (right sidebar):
-1. Look for the **Image** field
-2. Click **Replace**
-3. **Upload** your photo
-
-Your photo is now tinted and framed within the CRT monitor.
-
-### Step 5: Exit Component Edit
-
-Click outside the component or press **Escape** to go back to normal editing.
-
-## Editing Labels
-
-You can edit the four text labels directly on the canvas:
-
-1. **Enter edit mode** (double-click the component)
-2. **Double-click** the text label you want to change
-3. **Type** your new text
-4. **Click outside** to finish
-
-**Example labels:**
-```
-Top Left:    "workflow_scan.exe"
-Top Right:   "v2.4 LIVE"
-Bottom Left: "⚡ 100%"
-Bottom Right: "1920×1080"
-```
-
-## Size Variants
-
-The TerminalImage comes in two sizes:
-
-| Variant | Dimensions | Use |
-|---------|-----------|-----|
-| **Regular** | 1060×626px | Full-width sections, hero areas |
-| **Small** | 522×308px | Sidebar, smaller sections |
-
-**To change size:**
-1. Click the component (outer frame)
-2. Properties panel → look for **Size** or **Variant**
-3. Select Regular or Small
-
-## Color Tint
-
-The photo is tinted with `/Terminal/TerminalPrimary`:
-
-- Change this color token → all TerminalImages update
-- Default: neon green `rgb(64, 255, 67)`
-- Adjust opacity of tint overlay layer if too strong
-
-**To adjust tint opacity:**
-1. Enter component edit mode
-2. Find the **Tint Overlay** layer
-3. Change **Opacity** in Properties (0–1 scale)
-4. Lower opacity = more visible photo, less tint
-
-## CRT Effects
-
-Scanline and noise overlays give the authentic retro monitor look:
-
-- **Scanlines** — Horizontal lines across the screen
-- **Noise** — Fine grain texture
-- **Opacity** — 30% by default (adjust if needed)
-
-**To adjust effects:**
-1. Enter component edit mode
-2. Find **Effects layer** or **Scanlines**
-3. Adjust **Opacity** to 0–100%
-4. 0% = no effects, 100% = very strong effects
-
-## Image Optimization
-
-### Best Practices
-
-- **Size** — Export at 2× resolution (e.g., 2120×1252px for Regular)
-- **Compress** — Compress to under 500KB
-- **Format** — JPEG for photos, PNG for graphics
-- **WebP** — Use WebP if possible (better compression)
-
-### Aspect Ratio
-
-Make sure your image matches the frame aspect ratio:
-
-- **Regular** — 1060×626px (1.69:1)
-- **Small** — 522×308px (1.69:1)
-
-If your photo is a different aspect ratio, it may be stretched. Crop or resize first.
-
-## Advanced: Editing the Frame
-
-If you want to customize the monitor frame itself:
-
-1. Enter component edit mode
-2. Find **Monitor Casing** frame
-3. Edit the shape, colors, or details
-4. Adjust bolt positions if needed
-
-This requires knowledge of Framer design. For simpler use, just replace the photo.
-
-## Mobile Responsiveness
-
-The TerminalImage is responsive:
-
-- **Desktop** — Regular size (1060×626px)
-- **Tablet** — Medium size (~800×470px)
-- **Mobile** — Small size (522×308px) or scaled down
-
-Framer handles responsive scaling automatically.
-
-## Multiple TerminalImages
-
-Use multiple TerminalImages on the same page to showcase different projects:
-
-1. Duplicate the component (right-click → Duplicate)
-2. Change the photo for each
-3. Update labels if needed
-4. Arrange on canvas
-
-All instances use the same design, so they stay consistent.
-
-## Troubleshooting
-
-**Photo looks distorted?**
-- Check aspect ratio matches frame
-- Crop photo to correct dimensions before uploading
-- Use **Fill** (not **Stretch**) for image mode if available
-
-**Tint too strong?**
-- Enter component edit mode
-- Reduce tint overlay opacity
-- Make the tint layer more transparent
-
-**Scanlines too prominent?**
-- Find Effects layer
-- Reduce opacity to 10–20%
-
-**Labels not showing?**
-- Make sure text color contrasts with background
-- Increase font size if text is too small
-- Check text isn't outside component bounds
+Defaults to the `/Terminal/TerminalSecondary` token. Change to any color or token as needed.
 
 ## Next Steps
 

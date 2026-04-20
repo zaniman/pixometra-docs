@@ -1,36 +1,33 @@
-# NotFoundGame (404 Page)
+# NotFoundGame
 
-A fully playable retro arcade game that turns the 404 page into an engaging experience instead of a dead end.
+A fully playable two-phase retro arcade game that turns the 404 page into an engaging experience.
+
+![NotFoundGame](/images/guide/game404.png)
 
 ## Overview
 
 When visitors hit a missing page, they're welcomed with a **fully playable arcade game** instead of a boring error message.
 
 **Features:**
-- Two-phase gameplay
+- Two-phase gameplay (destroy 404 → scrolling shooter)
 - Desktop (keyboard) and mobile (touch) controls
-- Fully customizable text and colors
-- Scores tracking
-- Retro pixel art aesthetic
+- Fully customizable colors and all text strings
+- Lives and score tracking
+- Retro pixel art aesthetic with IBM Plex Mono typography
 
-## Gameplay
+## How to Play
 
-### Phase 1: Destroy the 404
+### Phase 1 — Destroy the 404
 
-Shoot and destroy the pixel "404" letters floating on screen.
+Your ship appears at the bottom. Shoot the pixel letters "404" to destroy every block. Once all blocks are destroyed, Phase 2 begins.
 
-- Use arrow keys / WASD to move
-- Spacebar to shoot
-- Destroy all "404" letters to advance
+### Phase 2 — Scrolling Shooter
 
-### Phase 2: Scrolling Shooter
+Enemy ships spawn from the top and move downward. Destroy them to score points. Enemies spawn faster as your score increases. Reach **2000 points** to win.
 
-Navigate through waves of enemies, dodge attacks, and survive.
+### Lives & Game Over
 
-- Dodge incoming fire
-- Destroy enemy ships
-- Reach **2000 points** to win
-- Hit by 3 enemies → Game Over
+You start with **3 lives** (shown as `█ █ █` in the footer). Each time an enemy collides with your ship you lose one life. Lose all three — Game Over.
 
 ## Controls
 
@@ -38,192 +35,90 @@ Navigate through waves of enemies, dodge attacks, and survive.
 
 | Control | Action |
 |---------|--------|
-| **Arrow Keys** or **A/D** | Move left/right |
+| **Arrow Left / A** | Move ship left |
+| **Arrow Right / D** | Move ship right |
 | **Spacebar** | Shoot |
-| **Spacebar** (idle/gameover) | Start game |
+| **Space** (on idle/win/dead screens) | Start / restart |
 
 ### Mobile
 
 | Control | Action |
 |---------|--------|
-| **Tap anywhere** | Start game |
-| **Hold & drag** left/right | Move ship |
-| **Auto-shoot** while holding | Bullets fire automatically |
+| **Tap anywhere** | Start / restart |
+| **Hold & drag** left/right | Move ship (ship tracks finger position) |
+| **Auto-fire** | Bullets fire automatically while holding |
 
 ## Property Controls
 
-### Text
-
-All displayed text is customizable:
-
-| Property | Default | Use |
-|----------|---------|-----|
-| **Title** | "Page Not Found" | Main heading |
-| **Subtitle** | "But here's a game instead!" | Subheading |
-| **Game Over Text** | "Game Over" | End screen message |
-| **Win Text** | "You Win!" | Victory message |
-| **CTA** | "Try Again" | Button text on end screen |
+![Property Controls](/images/guide/synthexa-72@2x.png)
 
 ### Colors
 
-Customize the arcade aesthetic:
+One **Colors** object controls the entire visual palette:
 
-| Property | Default | Controls |
-|----------|---------|----------|
-| **Accent Color** | `#40ff43` | Ship, bullets, primary UI |
-| **Enemy Color** | `#ff6633` | Enemy ships, "404" digits |
-| **Background** | `#0d0d14` | Game canvas background |
-| **Text Color** | `#ffffff` | All text on screen |
+| Sub-property | Default | Applies To |
+|-------------|---------|-----------|
+| **Primary** | `rgb(0, 242, 0)` | Ship, bullets, score display, CTA text, particles |
+| **Secondary** | `rgb(0, 242, 0)` | Header and footer label text |
+| **Lines** | `rgba(0, 242, 0, 0.35)` | Dashed border lines between header/footer and game area |
+| **Background** | `rgb(13, 13, 20)` | Game canvas background |
+| **Enemy** | `rgb(217, 186, 154)` | 404 pixel blocks and enemy ships |
 
-## Customization Examples
+### Show 404 on Idle
 
-### Minimal Branding
+| Property | Type | Default | Description |
+|----------|------|---------|-------------|
+| **Show 404 on Idle** | Toggle | On | Shows the pixel "404" digits in the background while the game is on the idle/start screen |
 
-```
-Title: "That page doesn't exist"
-Subtitle: "Play our game while you figure things out"
-CTA: "Go Home"
-Colors: Use your brand colors
-```
+### HUD
 
-### Themed for Your Agency
+Fixed chrome strings shown in the header and footer bar at all times:
 
-```
-Title: "Houston, we have a problem"
-Subtitle: "Your mission: navigate the asteroid field"
-Game Over Text: "Mission Failed. Try Again."
-Win Text: "Mission Accomplished!"
-CTA: "Return to Base"
-Accent Color: Your brand primary
-```
+| Sub-property | Default | Position |
+|-------------|---------|---------|
+| **Header Left** | `ERR_404 // PATH_NOT_FOUND` | Top-left |
+| **Header Right** | `SYS: AWAITING_INPUT` | Top-right |
+| **Footer Left** | `Synthexa OS v2.4.1` | Bottom-left |
+| **Score Label** | `SCORE:` | Bottom-right (prefixes the score number) |
 
-### Minimal Game
+### Screen: Idle
 
-Keep text short for faster gameplay:
+Text shown on the start screen before the game begins:
 
-```
-Title: "404"
-Subtitle: "Lost?"
-Game Over Text: "Oops"
-Win Text: "Nice!"
-CTA: "Back"
-```
+| Sub-property | Default |
+|-------------|---------|
+| **Title** | `SYSTEM ERROR // PAGE NOT FOUND` |
+| **Subtitle** | `DESTROY THE 404 TO RESTORE NAVIGATION` |
+| **CTA** | `TAP TO INITIALIZE` |
+| **Controls Hint** | `DRAG TO MOVE  ·  AUTO FIRE` |
 
-## How to Edit Text
+### Screen: Phase 1→2
 
-1. Click the NotFoundGame component on the `/404` page
-2. Open **Properties panel** (right sidebar)
-3. Find the text property you want to change
-4. Edit the text directly
-5. Changes appear instantly in preview
+Brief message displayed in the center of the game area when the player destroys all 404 blocks and Phase 2 begins. Shown for 2 seconds, then disappears.
 
-## How to Change Colors
+| Sub-property | Default |
+|-------------|---------|
+| **Message** | `404 ELIMINATED — ENTERING DEFENSE MODE` |
 
-1. Click the NotFoundGame component
-2. Open **Properties panel** → **Colors**
-3. Click each color to open the color picker
-4. Choose your colors
-5. Game visuals update instantly
+### Screen: Win
 
-## Desktop vs Mobile Gameplay
+Overlay shown when the player reaches 2000 points:
 
-The game automatically detects device type:
+| Sub-property | Default |
+|-------------|---------|
+| **Title** | `ACCESS RESTORED` |
+| **Score Label** | `SCORE:` |
+| **Replay Label** | `TAP TO REPLAY` |
 
-- **Desktop** — Full keyboard controls, 1080p gameplay
-- **Mobile** — Touch controls, responsive sizing
+### Screen: Game Over
 
-No configuration needed — it just works.
+Overlay shown when all 3 lives are lost:
 
-## Scoring
-
-### Points Per Action
-
-- **Destroy "404" letter** — 100 points
-- **Destroy enemy ship** — 200 points
-- **Survive 30 seconds** — 50 bonus points
-
-### Winning
-
-- **2000 points** → Victory screen
-- Advance to next level (optional progression)
-
-### Losing
-
-- **Hit 3 times** → Game Over
-- Score freezes at loss
-
-## Performance
-
-The game uses Canvas rendering for smooth 60fps gameplay:
-
-- Optimized for all screen sizes
-- Minimal CPU impact
-- Touch support without lag
-- Auto-pauses when browser tab loses focus
-
-## Mobile Considerations
-
-On mobile:
-- Larger touch targets
-- Responsive game area sizing
-- Auto-scaling for different screen heights
-- Landscape mode recommended for best experience
-
-## Accessibility
-
-- **Keyboard only** — Full keyboard controls available
-- **Touch alternative** — Works without keyboard
-- **High contrast** — All colors have sufficient contrast
-- **Clear feedback** — Visual/audio cues for actions
-
-## Variations
-
-### Endless Mode
-
-```javascript
-Win Text: "Level Complete"
-Enable: Endless progression (each level harder)
-```
-
-### Timed Challenge
-
-```javascript
-Add: Timer display (30 seconds)
-Goal: Highest score in 30 seconds
-```
-
-### Score Leaderboard
-
-```javascript
-Track: Scores submitted to database
-Display: Top scores on page
-```
-
-:::tip
-These require custom modifications. Contact support for advanced game modes.
-:::
-
-## Troubleshooting
-
-**Game not responding to controls?**
-- Make sure component is selected (click it)
-- Test in preview or published mode
-- Check browser console for errors
-
-**Text not showing?**
-- Verify text isn't blank
-- Check text color contrasts with background
-- Make sure text field is populated
-
-**Colors not applying?**
-- Use valid hex codes or RGB values
-- Test color in preview to confirm
-- Clear browser cache if colors seem wrong
-
-**Mobile controls not working?**
-- Test on actual mobile device
-- Ensure you can hold and drag
-- Disable browser's auto-zoom if it interferes
+| Sub-property | Default |
+|-------------|---------|
+| **Title** | `SYSTEM BREACH` |
+| **Score Label** | `SCORE:` |
+| **Retry CTA** | `TAP TO RETRY` |
 
 ## Next Steps
 
