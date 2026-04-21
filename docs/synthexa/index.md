@@ -4,6 +4,8 @@
 
 Thank you for choosing **SYNTHEXA** — a premium Framer template for automation agencies, SaaS platforms, and tech-forward businesses. This documentation will guide you through setup, customization, and publishing.
 
+**[View Live Demo →](https://synthexa.framer.website/)**
+
 ## What is SYNTHEXA?
 
 SYNTHEXA is built around a **retro-futurist terminal aesthetic** — dark backgrounds, neon green accents, CRT effects, and monospace typography. Perfect for showcasing data-driven solutions and automation services.

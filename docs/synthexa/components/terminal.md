@@ -233,6 +233,8 @@ Automatically arranges panels based on count and aspect ratios.
 
 Panels stack vertically.
 
+![Terminal Stacked](/images/guide/terminalstacked@2x.png)
+
 ```
 ┌────────┐
 │ Panel1 │
@@ -247,6 +249,8 @@ Panels stack vertically.
 
 Panels arrange horizontally.
 
+![Terminal Inline](/images/guide/terminalinline@2x.png)
+
 ```
 ┌────┬────┬────┐
 │ P1 │ P2 │ P3 │
@@ -256,6 +260,8 @@ Panels arrange horizontally.
 ### Equal Halves
 
 Two columns of equal width.
+
+![Terminal Equal](/images/guide/terminalequal@2x.png)
 
 ```
 ┌────┬────┐
@@ -270,6 +276,9 @@ Two columns of equal width.
 Asymmetric two-column layout where one column is wider than the other.
 
 **Wide Left:** Left column is wider
+
+![Terminal Left](/images/guide/terminalleft@2x.png)
+
 ```
 ┌──────────┬────┐
 │  Panel   │ P2 │
@@ -279,6 +288,9 @@ Asymmetric two-column layout where one column is wider than the other.
 ```
 
 **Wide Right:** Right column is wider
+
+![Terminal Right](/images/guide/terminalright@2x.png)
+
 ```
 ┌────┬──────────┐
 │ P2 │  Panel   │
